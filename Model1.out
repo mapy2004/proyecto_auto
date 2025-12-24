@@ -1,0 +1,85 @@
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date :12/24/2025
+Analyst: Windows User                                                Model revision date:12/24/2025
+
+Replication ended at time      : 20.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entidad_PC.VATime                           .93318     (Insuf)    .77837     1.1802         25    
+Entidad_PC.NVATime                          .00000     (Insuf)    .00000     .00000         25    
+Entidad_PC.WaitTime                         .12440     (Insuf)    .00000     .50780         25    
+Entidad_PC.TranTime                         .02083     (Insuf)    .02083     .02083         25    
+Entidad_PC.OtherTime                        .00000     (Insuf)    .00000     .00000         25    
+Entidad_PC.TotalTime                        1.0784     (Insuf)    .83716     1.4434         25    
+Prep PlacaMadre.Queue.WaitingTime           .00185     (Insuf)    .00000     .04617         25    
+Empaquetado.Queue.WaitingTime               .00000     (Insuf)    .00000     .00000         25    
+kitting.Queue.WaitingTime                   .01555     (Insuf)    .00000     .12277         26    
+Instalar Gráfica.Queue.WaitingTime          .00000     (Insuf)    .00000     .00000          7    
+Testeo.Queue.WaitingTime                    .00000     (Insuf)    .00000     .00000         25    
+Ensamblaje Caja.Queue.WaitingTime           .10638     (Insuf)    .00000     .49709         25    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entidad_PC.WIP                              1.3527     (Insuf)    .00000     5.0000     1.0000    
+Instalador.NumberBusy                       .02046     (Insuf)    .00000     1.0000     .00000    
+Instalador.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Instalador.Utilization                      .02046     (Insuf)    .00000     1.0000     .00000    
+Operario Almacén.NumberBusy                 .20038     (Insuf)    .00000     1.0000     1.0000    
+Operario Almacén.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operario Almacén.Utilization                .20038     (Insuf)    .00000     1.0000     1.0000    
+Soldador.NumberBusy                         .46189     (Insuf)    .00000     1.0000     .00000    
+Soldador.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Soldador.Utilization                        .46189     (Insuf)    .00000     1.0000     .00000    
+Wrapper.NumberBusy                          .11050     (Insuf)    .00000     1.0000     .00000    
+Wrapper.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Wrapper.Utilization                         .11050     (Insuf)    .00000     1.0000     .00000    
+Ingeniero.NumberBusy                        .17310     (Insuf)    .00000     1.0000     .00000    
+Ingeniero.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Ingeniero.Utilization                       .17310     (Insuf)    .00000     1.0000     .00000    
+Tester.NumberBusy                           .20485     (Insuf)    .00000     1.0000     .00000    
+Tester.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Tester.Utilization                          .20485     (Insuf)    .00000     1.0000     .00000    
+Prep PlacaMadre.Queue.NumberInQueue         .00231     (Insuf)    .00000     1.0000     .00000    
+Empaquetado.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+kitting.Queue.NumberInQueue                 .02021     (Insuf)    .00000     1.0000     .00000    
+Instalar Gráfica.Queue.NumberInQueue        .00000     (Insuf)    .00000     .00000     .00000    
+Testeo.Queue.NumberInQueue                  .00000     (Insuf)    .00000     .00000     .00000    
+Ensamblaje Caja.Queue.NumberInQueue         .13297     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entidad_PC.NumberIn                         26.000    
+Entidad_PC.NumberOut                        25.000    
+Instalador.NumberSeized                     7.0000    
+Instalador.ScheduledUtilization             .02046    
+Operario Almacén.NumberSeized               26.000    
+Operario Almacén.ScheduledUtilization       .20038    
+Soldador.NumberSeized                       25.000    
+Soldador.ScheduledUtilization               .46189    
+Wrapper.NumberSeized                        25.000    
+Wrapper.ScheduledUtilization                .11050    
+Ingeniero.NumberSeized                      25.000    
+Ingeniero.ScheduledUtilization              .17310    
+Tester.NumberSeized                         25.000    
+Tester.ScheduledUtilization                 .20485    
+System.NumberOut                            25.000    
+
+
+Simulation run time: 0.05 minutes.
+Simulation run complete.
