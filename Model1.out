@@ -1,13 +1,15 @@
+SIMAN Run Controller.
 
+30.390451 Hours>
                                       ARENA Simulation Results
                                    Windows User - License: STUDENT
 
                                   Summary for Replication 1 of 1
 
-Project: Unnamed Project                                             Run execution date :12/24/2025
-Analyst: Windows User                                                Model revision date:12/24/2025
+Project: Unnamed Project                                             Run execution date :12/25/2025
+Analyst: Windows User                                                Model revision date:12/25/2025
 
-Replication ended at time      : 20.0 Hours 
+Replication ended at time      : 30.390451 Hours 
 Base Time Units: Hours
 
                                            TALLY VARIABLES
@@ -15,71 +17,73 @@ Base Time Units: Hours
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Entidad_PC.VATime                           .93318     (Insuf)    .77837     1.1802         25    
-Entidad_PC.NVATime                          .00000     (Insuf)    .00000     .00000         25    
-Entidad_PC.WaitTime                         .12440     (Insuf)    .00000     .50780         25    
-Entidad_PC.TranTime                         .02083     (Insuf)    .02083     .02083         25    
-Entidad_PC.OtherTime                        .00000     (Insuf)    .00000     .00000         25    
-Entidad_PC.TotalTime                        1.0784     (Insuf)    .83716     1.4434         25    
-Prep PlacaMadre.Queue.WaitingTime           .00185     (Insuf)    .00000     .04617         25    
-Empaquetado.Queue.WaitingTime               .00000     (Insuf)    .00000     .00000         25    
-kitting.Queue.WaitingTime                   .01555     (Insuf)    .00000     .12277         26    
+Entidad_PC.VATime                           .93884     (Insuf)    .83314     1.0917         23    
+Entidad_PC.NVATime                          .00000     (Insuf)    .00000     .00000         23    
+Entidad_PC.WaitTime                         8.9945     (Insuf)    .00000     15.933         23    
+Entidad_PC.TranTime                         .01667     (Insuf)    .01667     .01667         23    
+Entidad_PC.OtherTime                        .00000     (Insuf)    .00000     .00000         23    
+Entidad_PC.TotalTime                        9.9500     (Insuf)    .93978     16.822         23    
+Prep PlacaMadre.Queue.WaitingTime           .00700     (Insuf)    .00000     .05020         34    
+Empaquetado.Queue.WaitingTime               .00000     (Insuf)    .00000     .00000         23    
+kitting.Queue.WaitingTime                   5.8043     (Insuf)    .00000     15.072         34    
 Instalar Gráfica.Queue.WaitingTime          .00000     (Insuf)    .00000     .00000          7    
-Testeo.Queue.WaitingTime                    .00000     (Insuf)    .00000     .00000         25    
-Ensamblaje Caja.Queue.WaitingTime           .10638     (Insuf)    .00000     .49709         25    
+Testeo.Queue.WaitingTime                    .66319     (Insuf)    .00000     15.916         24    
+Ensamblaje Caja.Queue.WaitingTime           1.2132     (Insuf)    .00000     3.3955         25    
+Pedir Carretilla.Queue.WaitingTime          .00000     (Insuf)    .00000     .00000         34    
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Entidad_PC.WIP                              1.3527     (Insuf)    .00000     5.0000     1.0000    
-Instalador.NumberBusy                       .02046     (Insuf)    .00000     1.0000     .00000    
-Instalador.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Instalador.Utilization                      .02046     (Insuf)    .00000     1.0000     .00000    
-Operario Almacén.NumberBusy                 .20038     (Insuf)    .00000     1.0000     1.0000    
-Operario Almacén.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Operario Almacén.Utilization                .20038     (Insuf)    .00000     1.0000     1.0000    
-Soldador.NumberBusy                         .46189     (Insuf)    .00000     1.0000     .00000    
-Soldador.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Soldador.Utilization                        .46189     (Insuf)    .00000     1.0000     .00000    
-Wrapper.NumberBusy                          .11050     (Insuf)    .00000     1.0000     .00000    
-Wrapper.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Wrapper.Utilization                         .11050     (Insuf)    .00000     1.0000     .00000    
-Ingeniero.NumberBusy                        .17310     (Insuf)    .00000     1.0000     .00000    
-Ingeniero.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Ingeniero.Utilization                       .17310     (Insuf)    .00000     1.0000     .00000    
-Tester.NumberBusy                           .20485     (Insuf)    .00000     1.0000     .00000    
-Tester.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Tester.Utilization                          .20485     (Insuf)    .00000     1.0000     .00000    
-Prep PlacaMadre.Queue.NumberInQueue         .00231     (Insuf)    .00000     1.0000     .00000    
+Entidad_PC.WIP                              9.6399     (Insuf)    .00000     22.000     11.000    
+Instalador.NumberBusy                       .01446     (Insuf)    .00000     1.0000     .00000    
+Instalador.NumberScheduled                  .47352     (Insuf)    .00000     1.0000     1.0000    
+Instalador.Utilization                      .01446     (Insuf)    .00000     1.0000     .00000    
+Operario Almacén.NumberBusy                 .17473     (Insuf)    .00000     1.0000     .00000    
+Operario Almacén.NumberScheduled            .47352     (Insuf)    .00000     1.0000     1.0000    
+Operario Almacén.Utilization                .17473     (Insuf)    .00000     1.0000     .00000    
+Soldador.NumberBusy                         .28523     (Insuf)    .00000     1.0000     1.0000    
+Soldador.NumberScheduled                    .47078     (Insuf)    .00000     1.0000     1.0000    
+Soldador.Utilization                        .28523     (Insuf)    .00000     1.0000     1.0000    
+Wrapper.NumberBusy                          .06314     (Insuf)    .00000     1.0000     .00000    
+Wrapper.NumberScheduled                     .47352     (Insuf)    .00000     1.0000     1.0000    
+Wrapper.Utilization                         .06314     (Insuf)    .00000     1.0000     .00000    
+Ingeniero.NumberBusy                        .15604     (Insuf)    .00000     1.0000     .00000    
+Ingeniero.NumberScheduled                   .47352     (Insuf)    .00000     1.0000     1.0000    
+Ingeniero.Utilization                       .15604     (Insuf)    .00000     1.0000     .00000    
+Tester.NumberBusy                           .12769     (Insuf)    .00000     1.0000     1.0000    
+Tester.NumberScheduled                      .47352     (Insuf)    .00000     1.0000     1.0000    
+Tester.Utilization                          .12769     (Insuf)    .00000     1.0000     1.0000    
+Prep PlacaMadre.Queue.NumberInQueue         .00783     (Insuf)    .00000     1.0000     .00000    
 Empaquetado.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
-kitting.Queue.NumberInQueue                 .02021     (Insuf)    .00000     1.0000     .00000    
+kitting.Queue.NumberInQueue                 6.4937     (Insuf)    .00000     21.000     .00000    
 Instalar Gráfica.Queue.NumberInQueue        .00000     (Insuf)    .00000     .00000     .00000    
-Testeo.Queue.NumberInQueue                  .00000     (Insuf)    .00000     .00000     .00000    
-Ensamblaje Caja.Queue.NumberInQueue         .13297     (Insuf)    .00000     2.0000     .00000    
+Testeo.Queue.NumberInQueue                  .52374     (Insuf)    .00000     1.0000     .00000    
+Ensamblaje Caja.Queue.NumberInQueue         1.7286     (Insuf)    .00000     14.000     9.0000    
+Pedir Carretilla.Queue.NumberInQueue        .00000     (Insuf)    .00000     .00000     .00000    
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Entidad_PC.NumberIn                         26.000    
-Entidad_PC.NumberOut                        25.000    
+Entidad_PC.NumberIn                         34.000    
+Entidad_PC.NumberOut                        23.000    
 Instalador.NumberSeized                     7.0000    
-Instalador.ScheduledUtilization             .02046    
-Operario Almacén.NumberSeized               26.000    
-Operario Almacén.ScheduledUtilization       .20038    
+Instalador.ScheduledUtilization             .03053    
+Operario Almacén.NumberSeized               34.000    
+Operario Almacén.ScheduledUtilization       .36900    
 Soldador.NumberSeized                       25.000    
-Soldador.ScheduledUtilization               .46189    
-Wrapper.NumberSeized                        25.000    
-Wrapper.ScheduledUtilization                .11050    
-Ingeniero.NumberSeized                      25.000    
-Ingeniero.ScheduledUtilization              .17310    
-Tester.NumberSeized                         25.000    
-Tester.ScheduledUtilization                 .20485    
-System.NumberOut                            25.000    
+Soldador.ScheduledUtilization               .60587    
+Wrapper.NumberSeized                        23.000    
+Wrapper.ScheduledUtilization                .13334    
+Ingeniero.NumberSeized                      34.000    
+Ingeniero.ScheduledUtilization              .32954    
+Tester.NumberSeized                         24.000    
+Tester.ScheduledUtilization                 .26967    
+System.NumberOut                            23.000    
 
 
-Simulation run time: 0.05 minutes.
+Simulation run time: 0.45 minutes.
 Simulation run complete.

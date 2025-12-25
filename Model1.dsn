@@ -9,5 +9,5 @@ MaxScanRows=8
 MaxBufferSize=2048
 FIL=MS Access
 DriverId=281
-DefaultDir=c:\Users\mapy7\Desktop\Estudios\Universidad\4º\Automatización de Sistemas de Producción\EJERCICIO p2
+DefaultDir=c:\Users\mapy7\Desktop\Estudios\Universidad\4º\Automatización de Sistemas de Producción\Proyecto_Final
 DBQ=C:\Users\mapy7\Desktop\Estudios\Universidad\4º\Automatización de Sistemas de Producción\Proyecto_Final\Model1.accdb
