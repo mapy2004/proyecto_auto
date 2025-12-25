@@ -1,0 +1,29 @@
+
+----------------------------------------------------------------------
+17123:EEVTRU
+Entity: 8
+A runtime error was detected at time 0.63548654 at the following block:
+
+ *   29 169$            TRANSPORT:,SEQ;
+
+Transporter unit may not be defaulted for an entity
+that does not control any units in the set.
+----------------------------------------------------------------------
+
+
+SIMAN Run Controller.
+
+0.63548654 Hours>
+----------------------------------------------------------------------
+17123:EEVTRU
+Entity: 8
+A runtime error was detected at time 0.63548654 at the following block:
+
+ *   29 169$            TRANSPORT:,SEQ;
+
+Transporter unit may not be defaulted for an entity
+that does not control any units in the set.
+----------------------------------------------------------------------
+
+
+SIMAN Run Controller.
