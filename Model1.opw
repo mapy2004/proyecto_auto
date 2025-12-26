@@ -6,7 +6,6 @@ Wrapper
 Ingeniero
 Tester
 [VARIABLES]
-Decide 2.NumberOut False
 Decide 1.NumberOut False
 kitting.NumberOut
 kitting.NumberIn
@@ -22,5 +21,4 @@ Prep PlacaMadre.NumberIn
 Empaquetado.NumberOut
 Empaquetado.NumberIn
 Instalar Gráfica.NumberIn
-Decide 2.NumberOut True
 Decide 1.NumberOut True
