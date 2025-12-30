@@ -1,0 +1,52 @@
+[RESOURCES]
+Instalador
+Reparadores
+Operario Almacén
+Soldador
+Cargadores
+Wrapper
+Ingeniero
+Tester
+[VARIABLES]
+Decide 3.NumberOut False
+Decide 4.NumberOut False
+Decide 2.NumberOut False
+Decide 1.NumberOut False
+kitting.NumberOut
+kitting.NumberIn
+TotalOficina
+Ensamblaje Caja.NumberOut
+Ensamblaje Caja.NumberIn
+Dispose 2.NumberOut
+Arreglo.NumberOut
+TotalAciertos
+TotalGaming
+Batch 2.NumberOut
+pInstalador
+pSoldador
+Arreglo.NumberIn
+pAlmacen
+Create 1.NumberOut
+TotalPC
+Prep PlacaMadre.NumberOut
+Descarga.NumberOut
+pCargadores
+Descarga.NumberIn
+VelConveyor
+Dispose 3.NumberOut
+pTester
+Testeo.NumberOut
+Testeo.NumberIn
+Instalar Gráfica.NumberOut
+Prep PlacaMadre.NumberIn
+Empaquetado.NumberOut
+Empaquetado.NumberIn
+Instalar Gráfica.NumberIn
+pReparadores
+pIngeniero
+pWrapper
+TotalFallos
+Decide 3.NumberOut True
+Decide 4.NumberOut True
+Decide 2.NumberOut True
+Decide 1.NumberOut True
