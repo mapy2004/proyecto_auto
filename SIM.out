@@ -141,7 +141,6 @@ Tester.NumberSeized                         89.000
 Tester.ScheduledUtilization                 .19669    
 System.NumberOut                            66.000    
 
-Beginning replication 2 of 10
 
                                       ARENA Simulation Results
                                       Anocim - License: STUDENT
@@ -285,7 +284,6 @@ Tester.NumberSeized                         91.000
 Tester.ScheduledUtilization                 .19727    
 System.NumberOut                            70.000    
 
-Beginning replication 3 of 10
 
                                       ARENA Simulation Results
                                       Anocim - License: STUDENT
@@ -429,7 +427,6 @@ Tester.NumberSeized                         100.00
 Tester.ScheduledUtilization                 .22493    
 System.NumberOut                            80.000    
 
-Beginning replication 4 of 10
 
                                       ARENA Simulation Results
                                       Anocim - License: STUDENT
@@ -573,7 +570,6 @@ Tester.NumberSeized                         103.00
 Tester.ScheduledUtilization                 .22152    
 System.NumberOut                            83.000    
 
-Beginning replication 5 of 10
 
                                       ARENA Simulation Results
                                       Anocim - License: STUDENT
@@ -717,7 +713,6 @@ Tester.NumberSeized                         110.00
 Tester.ScheduledUtilization                 .23374    
 System.NumberOut                            81.000    
 
-Beginning replication 6 of 10
 
                                       ARENA Simulation Results
                                       Anocim - License: STUDENT
@@ -861,7 +856,6 @@ Tester.NumberSeized                         85.000
 Tester.ScheduledUtilization                 .17728    
 System.NumberOut                            63.000    
 
-Beginning replication 7 of 10
 
                                       ARENA Simulation Results
                                       Anocim - License: STUDENT
@@ -1005,7 +999,6 @@ Tester.NumberSeized                         93.000
 Tester.ScheduledUtilization                 .21347    
 System.NumberOut                            61.000    
 
-Beginning replication 8 of 10
 
                                       ARENA Simulation Results
                                       Anocim - License: STUDENT
@@ -1149,7 +1142,6 @@ Tester.NumberSeized                         91.000
 Tester.ScheduledUtilization                 .20312    
 System.NumberOut                            70.000    
 
-Beginning replication 9 of 10
 
                                       ARENA Simulation Results
                                       Anocim - License: STUDENT
@@ -1293,7 +1285,6 @@ Tester.NumberSeized                         115.00
 Tester.ScheduledUtilization                 .24397    
 System.NumberOut                            79.000    
 
-Beginning replication 10 of 10
 
                                       ARENA Simulation Results
                                       Anocim - License: STUDENT
@@ -1479,5 +1470,5 @@ Tester.NumberSeized                         99.500     8.3025     85.000     118
 Tester.ScheduledUtilization                 .21735     .01794     .17728     .26155     10
 System.NumberOut                            74.300     6.8779     61.000     90.000     10
 
-Simulation run time: 3.30 minutes.
+Simulation run time: 0.02 minutes.
 Simulation run complete.

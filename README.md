@@ -7,7 +7,7 @@ la cadena de procesado teniendo en cuenta las
 dos entidades distintas, de momento todo funciona
 bien. :)
 
-Fábrica de ensamblado de ordenadores donde se disponen de dos tipos, ordenadores de oficina (70%) y ordenadores gaming (30%). Únicamenete se proporcionan nuevos materiales para la manufacturación durante las 8 primeras horas del día, es decir, el módulo create tiene un schedule para gestionarlo.
+Fábrica de ensamblado de ordenadores donde se disponen de dos tipos, ordenadores de oficina (70%) y ordenadores gaming (30%). Únicamenete se proporcionan nuevos materiales para la manufacturación durante las 12 primeras horas del día, es decir, el módulo create tiene un schedule para gestionarlo.
 
 Inicialmente, se hace acopio de los elemenetos necesarios en el proceso de kitting (TRIA(5,8,15)), posteriormente se transportan a través de un transporter se lleva al ciclo de la cinta transportadora:
 

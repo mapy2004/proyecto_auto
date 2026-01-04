@@ -8,26 +8,18 @@ Wrapper
 Ingeniero
 Tester
 [VARIABLES]
-Recurso operario
 Decide 3.NumberOut False
 Decide 2.NumberOut False
 Decide 1.NumberOut False
 kitting.NumberOut
-Recurso cargadores
 kitting.NumberIn
 Ensamblaje Caja.NumberOut
 Ensamblaje Caja.NumberIn
 Dispose 2.NumberOut
-Recurso wrapper
 Arreglo.NumberOut
-Recurso instalador
 Batch 2.NumberOut
-Recurso ingeniero
-Recurso tester
 Arreglo.NumberIn
-Recurso soldador
 Create 1.NumberOut
-Recurso reparadores
 Prep PlacaMadre.NumberOut
 Descarga.NumberOut
 Descarga.NumberIn
