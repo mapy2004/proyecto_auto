@@ -1,0 +1,44 @@
+[RESOURCES]
+Instalador
+Reparadores
+Operario Almacén
+Soldador
+Cargadores
+Wrapper
+Ingeniero
+Tester
+[VARIABLES]
+Decide 3.NumberOut False
+Decide 2.NumberOut False
+Decide 1.NumberOut False
+var_wrapper
+kitting.NumberOut
+kitting.NumberIn
+Ensamblaje Caja.NumberOut
+Ensamblaje Caja.NumberIn
+Dispose 2.NumberOut
+Arreglo.NumberOut
+var_ingeniero
+var_reparadores
+Batch 2.NumberOut
+Arreglo.NumberIn
+Create 1.NumberOut
+var_cargadores
+var_testers
+var_soldadores
+Prep PlacaMadre.NumberOut
+Descarga.NumberOut
+Descarga.NumberIn
+var_operario
+Dispose 3.NumberOut
+Testeo.NumberOut
+Testeo.NumberIn
+Instalar Gráfica.NumberOut
+var_instaladora
+Prep PlacaMadre.NumberIn
+Empaquetado.NumberOut
+Empaquetado.NumberIn
+Instalar Gráfica.NumberIn
+Decide 3.NumberOut True
+Decide 2.NumberOut True
+Decide 1.NumberOut True

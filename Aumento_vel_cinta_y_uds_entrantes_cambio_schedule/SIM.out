@@ -1,0 +1,1474 @@
+
+                                      ARENA Simulation Results
+                                      Anocim - License: STUDENT
+
+                                  Summary for Replication 1 of 10
+
+Project: Unnamed Project                                             Run execution date : 1/ 5/2026
+Analyst: Windows User                                                Model revision date: 1/ 5/2026
+
+Replication ended at time      : 168.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entidad_gaming.VATime                       1.2639     (Insuf)    .87497     1.9466         24    
+Entidad_gaming.NVATime                      .00000     (Insuf)    .00000     .00000         24    
+Entidad_gaming.WaitTime                     14.558     (Insuf)    1.4502     20.412         24    
+Entidad_gaming.TranTime                     .60969     (Insuf)    .58571     .62175         24    
+Entidad_gaming.OtherTime                    .00000     (Insuf)    .00000     .00000         24    
+Entidad_gaming.TotalTime                    16.431     (Insuf)    3.0412     22.801         24    
+Entidad_PC.VATime                               --         --         --         --          0
+Entidad_PC.NVATime                              --         --         --         --          0
+Entidad_PC.WaitTime                             --         --         --         --          0
+Entidad_PC.TranTime                             --         --         --         --          0
+Entidad_PC.OtherTime                            --         --         --         --          0
+Entidad_PC.TotalTime                            --         --         --         --          0
+Entidad_oficina.VATime                      .92302     (Insuf)    .57146     1.4828         96    
+Entidad_oficina.NVATime                     .00000     (Insuf)    .00000     .00000         96    
+Entidad_oficina.WaitTime                    12.183     (Insuf)    .17436     21.400         96    
+Entidad_oficina.TranTime                    .61043     (Insuf)    .58571     .62177         96    
+Entidad_oficina.OtherTime                   .00000     (Insuf)    .00000     .00000         96    
+Entidad_oficina.TotalTime                   13.717     (Insuf)    1.5431     23.114         96    
+Entidad_paquete.VATime                      4.5108     (Insuf)    3.6985     5.8940          8    
+Entidad_paquete.NVATime                     .00000     (Insuf)    .00000     .00000          8    
+Entidad_paquete.WaitTime                    137.43     (Insuf)    78.491     321.52          8    
+Entidad_paquete.TranTime                    3.0813     (Insuf)    3.0364     3.1083          8    
+Entidad_paquete.OtherTime                   .00000     (Insuf)    .00000     .00000          8    
+Entidad_paquete.TotalTime                   42.575     (Insuf)    21.332     94.540          8    
+Leave 5.Queue.WaitingTime                   .00198     (Insuf)    .00000     .00486        117    
+Prep PlacaMadre.Queue.WaitingTime           2.4683     (Insuf)    .00000     16.004        169    
+Leave 7.Queue.WaitingTime                   .00935     (Insuf)    .00000     .26505         46    
+Batch 2.Queue.WaitingTime                   17.681     (Insuf)    .00000     72.914         40    
+Empaquetado.Queue.WaitingTime               .94714     (Insuf)    .00000     15.929        117    
+Arreglo.Queue.WaitingTime                   .26176     (Insuf)    .00000     1.2278         46    
+Leave 4.Queue.WaitingTime                   .00102     (Insuf)    .00000     .00461         35    
+kitting.Queue.WaitingTime                   2.7543     (Insuf)    .00000     16.001        177    
+Instalar Gráfica.Queue.WaitingTime          .44521     (Insuf)    .00000     15.582         35    
+Testeo.Queue.WaitingTime                    .77752     (Insuf)    .00000     15.951        163    
+Leave 3.Queue.WaitingTime                   .00200     (Insuf)    .00000     .00484        165    
+Leave 6.Queue.WaitingTime                   .00191     (Insuf)    .00000     .00490        116    
+Ensamblaje Caja.Queue.WaitingTime           2.6609     (Insuf)    .00000     18.656        165    
+Leave 8.Queue.WaitingTime                   .03556     (Insuf)    .00000     .27739         46    
+Descarga.Queue.WaitingTime                  .58379     (Insuf)    .00000     15.975        160    
+Leave 2.Queue.WaitingTime                   .00188     (Insuf)    .00000     .00480        168    
+Pedir Carretilla.Queue.WaitingTime          1.4809     (Insuf)    .00000     4.0472        176    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+WIP                                         19.133     (Insuf)    .00000     28.000     19.000    
+Entidad_gaming.WIP                          5.8626     (Insuf)    .00000     11.000     5.0000    
+Entidad_PC.WIP                              .00000     (Insuf)    .00000     1.0000     .00000    
+Entidad_oficina.WIP                         13.270     (Insuf)    .00000     20.000     14.000    
+Entidad_paquete.WIP                         .00000     (Insuf)    .00000     1.0000     .00000    
+Instalador.NumberBusy                       .01155     (Insuf)    .00000     1.0000     .00000    
+Instalador.NumberScheduled                  .33333     (Insuf)    .00000     1.0000     .00000    
+Instalador.Utilization                      .01155     (Insuf)    .00000     1.0000     .00000    
+Reparadores.NumberBusy                      .18690     (Insuf)    .00000     1.0000     .00000    
+Reparadores.NumberScheduled                 .33333     (Insuf)    .00000     1.0000     .00000    
+Reparadores.Utilization                     .18690     (Insuf)    .00000     1.0000     .00000    
+Operario Almacén.NumberBusy                 .16160     (Insuf)    .00000     1.0000     1.0000    
+Operario Almacén.NumberScheduled            .33333     (Insuf)    .00000     1.0000     1.0000    
+Operario Almacén.Utilization                .16160     (Insuf)    .00000     1.0000     1.0000    
+Soldador.NumberBusy                         .29610     (Insuf)    .00000     1.0000     .00000    
+Soldador.NumberScheduled                    .33333     (Insuf)    .00000     1.0000     .00000    
+Soldador.Utilization                        .29610     (Insuf)    .00000     1.0000     .00000    
+Cargadores.NumberBusy                       .03281     (Insuf)    .00000     1.0000     .00000    
+Cargadores.NumberScheduled                  .33333     (Insuf)    .00000     1.0000     .00000    
+Cargadores.Utilization                      .03281     (Insuf)    .00000     1.0000     .00000    
+Wrapper.NumberBusy                          .05623     (Insuf)    .00000     1.0000     1.0000    
+Wrapper.NumberScheduled                     .33333     (Insuf)    .00000     1.0000     1.0000    
+Wrapper.Utilization                         .05623     (Insuf)    .00000     1.0000     1.0000    
+Ingeniero.NumberBusy                        .08098     (Insuf)    .00000     1.0000     1.0000    
+Ingeniero.NumberScheduled                   .33333     (Insuf)    .00000     1.0000     1.0000    
+Ingeniero.Utilization                       .08098     (Insuf)    .00000     1.0000     1.0000    
+Tester.NumberBusy                           .11207     (Insuf)    .00000     1.0000     .00000    
+Tester.NumberScheduled                      .33333     (Insuf)    .00000     1.0000     .00000    
+Tester.Utilization                          .11207     (Insuf)    .00000     1.0000     .00000    
+Leave 5.Queue.NumberInQueue                 .00138     (Insuf)    .00000     1.0000     .00000    
+Prep PlacaMadre.Queue.NumberInQueue         3.0882     (Insuf)    .00000     11.000     7.0000    
+Leave 7.Queue.NumberInQueue                 .00256     (Insuf)    .00000     1.0000     .00000    
+Batch 2.Queue.NumberInQueue                 4.2098     (Insuf)    .00000     9.0000     .00000    
+Empaquetado.Queue.NumberInQueue             .65962     (Insuf)    .00000     2.0000     .00000    
+Arreglo.Queue.NumberInQueue                 .07167     (Insuf)    .00000     2.0000     .00000    
+Leave 4.Queue.NumberInQueue                 2.1301E-04 (Insuf)    .00000     1.0000     .00000    
+kitting.Queue.NumberInQueue                 3.0599     (Insuf)    .00000     7.0000     2.0000    
+Instalar Gráfica.Queue.NumberInQueue        .18472     (Insuf)    .00000     1.0000     1.0000    
+Testeo.Queue.NumberInQueue                  .84826     (Insuf)    .00000     2.0000     1.0000    
+Leave 3.Queue.NumberInQueue                 .00197     (Insuf)    .00000     1.0000     .00000    
+Leave 6.Queue.NumberInQueue                 .00132     (Insuf)    .00000     1.0000     .00000    
+Ensamblaje Caja.Queue.NumberInQueue         2.9077     (Insuf)    .00000     10.000     3.0000    
+Leave 8.Queue.NumberInQueue                 .00974     (Insuf)    .00000     1.0000     .00000    
+Descarga.Queue.NumberInQueue                .73512     (Insuf)    .00000     2.0000     2.0000    
+Leave 2.Queue.NumberInQueue                 .00188     (Insuf)    .00000     1.0000     .00000    
+Pedir Carretilla.Queue.NumberInQueue        1.5514     1.0834     .00000     12.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Number_out                                  160.00    
+Entidad_gaming.NumberIn                     39.000    
+Entidad_gaming.NumberOut                    34.000    
+Entidad_PC.NumberIn                         179.00    
+Entidad_PC.NumberOut                        179.00    
+Entidad_oficina.NumberIn                    140.00    
+Entidad_oficina.NumberOut                   126.00    
+Entidad_paquete.NumberIn                    8.0000    
+Entidad_paquete.NumberOut                   8.0000    
+Instalador.NumberSeized                     35.000    
+Instalador.ScheduledUtilization             .03466    
+Reparadores.NumberSeized                    46.000    
+Reparadores.ScheduledUtilization            .56069    
+Operario Almacén.NumberSeized               177.00    
+Operario Almacén.ScheduledUtilization       .48481    
+Soldador.NumberSeized                       165.00    
+Soldador.ScheduledUtilization               .88831    
+Cargadores.NumberSeized                     160.00    
+Cargadores.ScheduledUtilization             .09842    
+Wrapper.NumberSeized                        117.00    
+Wrapper.ScheduledUtilization                .16868    
+Ingeniero.NumberSeized                      169.00    
+Ingeniero.ScheduledUtilization              .24293    
+Tester.NumberSeized                         163.00    
+Tester.ScheduledUtilization                 .33620    
+System.NumberOut                            128.00    
+
+
+                                      ARENA Simulation Results
+                                      Anocim - License: STUDENT
+
+                                  Summary for Replication 2 of 10
+
+Project: Unnamed Project                                             Run execution date : 1/ 5/2026
+Analyst: Windows User                                                Model revision date: 1/ 5/2026
+
+Replication ended at time      : 168.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entidad_gaming.VATime                       1.1580     (Insuf)    .84960     2.1513         36    
+Entidad_gaming.NVATime                      .00000     (Insuf)    .00000     .00000         36    
+Entidad_gaming.WaitTime                     13.331     (Insuf)    .00664     23.699         36    
+Entidad_gaming.TranTime                     .61568     (Insuf)    .58571     .62171         36    
+Entidad_gaming.OtherTime                    .00000     (Insuf)    .00000     .00000         36    
+Entidad_gaming.TotalTime                    15.105     (Insuf)    1.6384     26.152         36    
+Entidad_PC.VATime                               --         --         --         --          0
+Entidad_PC.NVATime                              --         --         --         --          0
+Entidad_PC.WaitTime                             --         --         --         --          0
+Entidad_PC.TranTime                             --         --         --         --          0
+Entidad_PC.OtherTime                            --         --         --         --          0
+Entidad_PC.TotalTime                            --         --         --         --          0
+Entidad_oficina.VATime                      .87396     (Insuf)    .58964     1.4847         86    
+Entidad_oficina.NVATime                     .00000     (Insuf)    .00000     .00000         86    
+Entidad_oficina.WaitTime                    15.452     (Insuf)    .17711     34.550         86    
+Entidad_oficina.TranTime                    .61331     (Insuf)    .58571     .62175         86    
+Entidad_oficina.OtherTime                   .00000     (Insuf)    .00000     .00000         86    
+Entidad_oficina.TotalTime                   16.939     (Insuf)    1.3906     36.429         86    
+Entidad_paquete.VATime                      4.3727     (Insuf)    3.5380     6.5918          7    
+Entidad_paquete.NVATime                     .00000     (Insuf)    .00000     .00000          7    
+Entidad_paquete.WaitTime                    151.51     (Insuf)    49.644     250.00          7    
+Entidad_paquete.TranTime                    3.0826     (Insuf)    3.0364     3.1084          7    
+Entidad_paquete.OtherTime                   .00000     (Insuf)    .00000     .00000          7    
+Entidad_paquete.TotalTime                   46.874     (Insuf)    23.208     92.788          7    
+Leave 5.Queue.WaitingTime                   .00229     (Insuf)    .00000     .00489        130    
+Prep PlacaMadre.Queue.WaitingTime           3.5666     (Insuf)    .00000     15.986        185    
+Leave 7.Queue.WaitingTime                   .01576     (Insuf)    .00000     .14092         34    
+Batch 2.Queue.WaitingTime                   14.311     (Insuf)    .00000     75.210         35    
+Empaquetado.Queue.WaitingTime               .37053     (Insuf)    .00000     15.987        129    
+Arreglo.Queue.WaitingTime                   1.1744     (Insuf)    .00000     16.126         34    
+Leave 4.Queue.WaitingTime                   .00130     (Insuf)    .00000     .00479         46    
+kitting.Queue.WaitingTime                   2.2968     (Insuf)    .00000     16.065        193    
+Instalar Gráfica.Queue.WaitingTime          1.3452     (Insuf)    .00000     15.989         47    
+Testeo.Queue.WaitingTime                    .86307     (Insuf)    .00000     15.950        164    
+Leave 3.Queue.WaitingTime                   .00203     (Insuf)    .00000     .00485        167    
+Leave 6.Queue.WaitingTime                   .00185     (Insuf)    .00000     .00487        129    
+Ensamblaje Caja.Queue.WaitingTime           5.1475     (Insuf)    .00000     19.405        167    
+Leave 8.Queue.WaitingTime                   .03626     (Insuf)    .00000     .28079         34    
+Descarga.Queue.WaitingTime                  .49198     (Insuf)    .00000     16.022        161    
+Leave 2.Queue.WaitingTime                   .00220     (Insuf)    .00000     .00481        185    
+Pedir Carretilla.Queue.WaitingTime          1.9159     (Insuf)    .00000     5.9531        193    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+WIP                                         25.318     (Corr)     .00000     45.000     39.000    
+Entidad_gaming.WIP                          8.5165     (Insuf)    .00000     18.000     18.000    
+Entidad_PC.WIP                              .00000     (Insuf)    .00000     1.0000     .00000    
+Entidad_oficina.WIP                         16.801     (Insuf)    .00000     29.000     21.000    
+Entidad_paquete.WIP                         .00000     (Insuf)    .00000     1.0000     .00000    
+Instalador.NumberBusy                       .01512     (Insuf)    .00000     1.0000     1.0000    
+Instalador.NumberScheduled                  .33333     (Insuf)    .00000     1.0000     1.0000    
+Instalador.Utilization                      .01512     (Insuf)    .00000     1.0000     1.0000    
+Reparadores.NumberBusy                      .14699     (Insuf)    .00000     1.0000     .00000    
+Reparadores.NumberScheduled                 .33333     (Insuf)    .00000     1.0000     .00000    
+Reparadores.Utilization                     .14699     (Insuf)    .00000     1.0000     .00000    
+Operario Almacén.NumberBusy                 .17501     (Insuf)    .00000     1.0000     .00000    
+Operario Almacén.NumberScheduled            .33333     (Insuf)    .00000     1.0000     .00000    
+Operario Almacén.Utilization                .17501     (Insuf)    .00000     1.0000     .00000    
+Soldador.NumberBusy                         .30183     (Insuf)    .00000     1.0000     .00000    
+Soldador.NumberScheduled                    .33333     (Insuf)    .00000     1.0000     .00000    
+Soldador.Utilization                        .30183     (Insuf)    .00000     1.0000     .00000    
+Cargadores.NumberBusy                       .03603     (Insuf)    .00000     1.0000     .00000    
+Cargadores.NumberScheduled                  .33333     (Insuf)    .00000     1.0000     .00000    
+Cargadores.Utilization                      .03603     (Insuf)    .00000     1.0000     .00000    
+Wrapper.NumberBusy                          .06522     (Insuf)    .00000     1.0000     .00000    
+Wrapper.NumberScheduled                     .33333     (Insuf)    .00000     1.0000     .00000    
+Wrapper.Utilization                         .06522     (Insuf)    .00000     1.0000     .00000    
+Ingeniero.NumberBusy                        .09615     (Insuf)    .00000     1.0000     .00000    
+Ingeniero.NumberScheduled                   .33333     (Insuf)    .00000     1.0000     .00000    
+Ingeniero.Utilization                       .09615     (Insuf)    .00000     1.0000     .00000    
+Tester.NumberBusy                           .11437     (Insuf)    .00000     1.0000     .00000    
+Tester.NumberScheduled                      .33333     (Insuf)    .00000     1.0000     .00000    
+Tester.Utilization                          .11437     (Insuf)    .00000     1.0000     .00000    
+Leave 5.Queue.NumberInQueue                 .00178     (Insuf)    .00000     1.0000     .00000    
+Prep PlacaMadre.Queue.NumberInQueue         4.6268     (Insuf)    .00000     15.000     8.0000    
+Leave 7.Queue.NumberInQueue                 .00319     (Insuf)    .00000     1.0000     .00000    
+Batch 2.Queue.NumberInQueue                 3.8935     (Insuf)    .00000     9.0000     4.0000    
+Empaquetado.Queue.NumberInQueue             .37908     (Insuf)    .00000     1.0000     1.0000    
+Arreglo.Queue.NumberInQueue                 .23768     (Insuf)    .00000     2.0000     .00000    
+Leave 4.Queue.NumberInQueue                 3.5681E-04 (Insuf)    .00000     1.0000     .00000    
+kitting.Queue.NumberInQueue                 2.8857     (Insuf)    .00000     8.0000     3.0000    
+Instalar Gráfica.Queue.NumberInQueue        .46760     (Insuf)    .00000     2.0000     1.0000    
+Testeo.Queue.NumberInQueue                  .93160     (Insuf)    .00000     3.0000     1.0000    
+Leave 3.Queue.NumberInQueue                 .00201     (Insuf)    .00000     1.0000     .00000    
+Leave 6.Queue.NumberInQueue                 .00142     (Insuf)    .00000     1.0000     .00000    
+Ensamblaje Caja.Queue.NumberInQueue         7.1698     (Insuf)    .00000     23.000     18.000    
+Leave 8.Queue.NumberInQueue                 .00734     (Insuf)    .00000     1.0000     .00000    
+Descarga.Queue.NumberInQueue                .66000     (Insuf)    .00000     3.0000     2.0000    
+Leave 2.Queue.NumberInQueue                 .00242     .00176     .00000     1.0000     .00000    
+Pedir Carretilla.Queue.NumberInQueue        2.2011     1.4628     .00000     17.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Number_out                                  157.00    
+Entidad_gaming.NumberIn                     59.000    
+Entidad_gaming.NumberOut                    41.000    
+Entidad_PC.NumberIn                         196.00    
+Entidad_PC.NumberOut                        196.00    
+Entidad_oficina.NumberIn                    137.00    
+Entidad_oficina.NumberOut                   116.00    
+Entidad_paquete.NumberIn                    7.0000    
+Entidad_paquete.NumberOut                   7.0000    
+Instalador.NumberSeized                     47.000    
+Instalador.ScheduledUtilization             .04536    
+Reparadores.NumberSeized                    34.000    
+Reparadores.ScheduledUtilization            .44098    
+Operario Almacén.NumberSeized               193.00    
+Operario Almacén.ScheduledUtilization       .52502    
+Soldador.NumberSeized                       167.00    
+Soldador.ScheduledUtilization               .90549    
+Cargadores.NumberSeized                     161.00    
+Cargadores.ScheduledUtilization             .10808    
+Wrapper.NumberSeized                        129.00    
+Wrapper.ScheduledUtilization                .19567    
+Ingeniero.NumberSeized                      185.00    
+Ingeniero.ScheduledUtilization              .28845    
+Tester.NumberSeized                         164.00    
+Tester.ScheduledUtilization                 .34310    
+System.NumberOut                            129.00    
+
+
+                                      ARENA Simulation Results
+                                      Anocim - License: STUDENT
+
+                                  Summary for Replication 3 of 10
+
+Project: Unnamed Project                                             Run execution date : 1/ 5/2026
+Analyst: Windows User                                                Model revision date: 1/ 5/2026
+
+Replication ended at time      : 168.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entidad_gaming.VATime                       1.3080     (Insuf)    .81519     1.9299         42    
+Entidad_gaming.NVATime                      .00000     (Insuf)    .00000     .00000         42    
+Entidad_gaming.WaitTime                     15.613     (Insuf)    .23976     22.303         42    
+Entidad_gaming.TranTime                     .60883     (Insuf)    .58571     .62172         42    
+Entidad_gaming.OtherTime                    .00000     (Insuf)    .00000     .00000         42    
+Entidad_gaming.TotalTime                    17.529     (Insuf)    2.7299     23.938         42    
+Entidad_PC.VATime                               --         --         --         --          0
+Entidad_PC.NVATime                              --         --         --         --          0
+Entidad_PC.WaitTime                             --         --         --         --          0
+Entidad_PC.TranTime                             --         --         --         --          0
+Entidad_PC.OtherTime                            --         --         --         --          0
+Entidad_PC.TotalTime                            --         --         --         --          0
+Entidad_oficina.VATime                      .91318     (Insuf)    .57288     1.4726         95    
+Entidad_oficina.NVATime                     .00000     (Insuf)    .00000     .00000         95    
+Entidad_oficina.WaitTime                    15.763     (Insuf)    1.9868E-04 35.006         95    
+Entidad_oficina.TranTime                    .60994     (Insuf)    .58571     .62167         95    
+Entidad_oficina.OtherTime                   .00000     (Insuf)    .00000     .00000         95    
+Entidad_oficina.TotalTime                   17.286     (Insuf)    1.3874     36.958         95    
+Entidad_paquete.VATime                      4.7690     (Insuf)    3.5336     6.0088          5    
+Entidad_paquete.NVATime                     .00000     (Insuf)    .00000     .00000          5    
+Entidad_paquete.WaitTime                    153.84     (Insuf)    71.183     274.27          5    
+Entidad_paquete.TranTime                    3.0795     (Insuf)    3.0723     3.1083          5    
+Entidad_paquete.OtherTime                   .00000     (Insuf)    .00000     .00000          5    
+Entidad_paquete.TotalTime                   48.132     (Insuf)    26.460     76.251          5    
+Leave 5.Queue.WaitingTime                   .00211     (Insuf)    .00000     .00485        115    
+Prep PlacaMadre.Queue.WaitingTime           3.1443     (Insuf)    .00000     15.998        190    
+Leave 7.Queue.WaitingTime                   .05149     (Insuf)    .00000     .28560         55    
+Batch 2.Queue.WaitingTime                   17.786     (Insuf)    .00000     54.342         25    
+Empaquetado.Queue.WaitingTime               .13802     (Insuf)    .00000     15.869        115    
+Arreglo.Queue.WaitingTime                   .80916     (Insuf)    .00000     17.627         55    
+Leave 4.Queue.WaitingTime                   8.3416E-04 (Insuf)    .00000     .00468         57    
+kitting.Queue.WaitingTime                   3.5315     (Insuf)    .00000     16.045        204    
+Instalar Gráfica.Queue.WaitingTime          1.3398     (Insuf)    .00000     15.745         58    
+Testeo.Queue.WaitingTime                    1.3002     (Insuf)    .00000     15.988        171    
+Leave 3.Queue.WaitingTime                   .00171     (Insuf)    .00000     .00488        174    
+Leave 6.Queue.WaitingTime                   .00172     (Insuf)    .00000     .00470        115    
+Ensamblaje Caja.Queue.WaitingTime           3.6156     (Insuf)    .00000     18.913        174    
+Leave 8.Queue.WaitingTime                   .04873     (Insuf)    .00000     .30982         55    
+Descarga.Queue.WaitingTime                  .92226     (Insuf)    .00000     15.978        169    
+Leave 2.Queue.WaitingTime                   .00206     (Insuf)    .00000     .00487        190    
+Pedir Carretilla.Queue.WaitingTime          2.2664     (Insuf)    .00000     5.8088        204    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+WIP                                         27.179     (Corr)     .00000     52.000     52.000    
+Entidad_gaming.WIP                          9.7068     (Insuf)    .00000     19.000     19.000    
+Entidad_PC.WIP                              .00000     (Insuf)    .00000     1.0000     .00000    
+Entidad_oficina.WIP                         17.472     (Insuf)    .00000     33.000     33.000    
+Entidad_paquete.WIP                         .00000     (Insuf)    .00000     1.0000     .00000    
+Instalador.NumberBusy                       .01808     (Insuf)    .00000     1.0000     1.0000    
+Instalador.NumberScheduled                  .33333     (Insuf)    .00000     1.0000     1.0000    
+Instalador.Utilization                      .01808     (Insuf)    .00000     1.0000     1.0000    
+Reparadores.NumberBusy                      .22998     (Insuf)    .00000     1.0000     .00000    
+Reparadores.NumberScheduled                 .33333     (Insuf)    .00000     1.0000     .00000    
+Reparadores.Utilization                     .22998     (Insuf)    .00000     1.0000     .00000    
+Operario Almacén.NumberBusy                 .18548     (Insuf)    .00000     1.0000     .00000    
+Operario Almacén.NumberScheduled            .33333     (Insuf)    .00000     1.0000     .00000    
+Operario Almacén.Utilization                .18548     (Insuf)    .00000     1.0000     .00000    
+Soldador.NumberBusy                         .31522     (Insuf)    .00000     1.0000     .00000    
+Soldador.NumberScheduled                    .33333     (Insuf)    .00000     1.0000     .00000    
+Soldador.Utilization                        .31522     (Insuf)    .00000     1.0000     .00000    
+Cargadores.NumberBusy                       .03667     (Insuf)    .00000     1.0000     .00000    
+Cargadores.NumberScheduled                  .33333     (Insuf)    .00000     1.0000     .00000    
+Cargadores.Utilization                      .03667     (Insuf)    .00000     1.0000     .00000    
+Wrapper.NumberBusy                          .05691     (Insuf)    .00000     1.0000     .00000    
+Wrapper.NumberScheduled                     .33333     (Insuf)    .00000     1.0000     .00000    
+Wrapper.Utilization                         .05691     (Insuf)    .00000     1.0000     .00000    
+Ingeniero.NumberBusy                        .10201     (Insuf)    .00000     1.0000     .00000    
+Ingeniero.NumberScheduled                   .33333     (Insuf)    .00000     1.0000     .00000    
+Ingeniero.Utilization                       .10201     (Insuf)    .00000     1.0000     .00000    
+Tester.NumberBusy                           .12636     (Insuf)    .00000     1.0000     1.0000    
+Tester.NumberScheduled                      .33333     (Insuf)    .00000     1.0000     1.0000    
+Tester.Utilization                          .12636     (Insuf)    .00000     1.0000     1.0000    
+Leave 5.Queue.NumberInQueue                 .00145     (Insuf)    .00000     1.0000     .00000    
+Prep PlacaMadre.Queue.NumberInQueue         4.6552     (Insuf)    .00000     15.000     14.000    
+Leave 7.Queue.NumberInQueue                 .01686     (Insuf)    .00000     1.0000     .00000    
+Batch 2.Queue.NumberInQueue                 3.7467     (Insuf)    .00000     9.0000     7.0000    
+Empaquetado.Queue.NumberInQueue             .09448     (Insuf)    .00000     1.0000     .00000    
+Arreglo.Queue.NumberInQueue                 .26490     (Insuf)    .00000     3.0000     .00000    
+Leave 4.Queue.NumberInQueue                 2.8302E-04 (Insuf)    .00000     1.0000     .00000    
+kitting.Queue.NumberInQueue                 5.1119     (Insuf)    .00000     11.000     10.000    
+Instalar Gráfica.Queue.NumberInQueue        .46258     (Insuf)    .00000     2.0000     .00000    
+Testeo.Queue.NumberInQueue                  1.5059     (Insuf)    .00000     3.0000     2.0000    
+Leave 3.Queue.NumberInQueue                 .00177     (Insuf)    .00000     1.0000     .00000    
+Leave 6.Queue.NumberInQueue                 .00118     (Insuf)    .00000     1.0000     .00000    
+Ensamblaje Caja.Queue.NumberInQueue         5.4967     (Corr)     .00000     21.000     16.000    
+Leave 8.Queue.NumberInQueue                 .01595     (Insuf)    .00000     1.0000     .00000    
+Descarga.Queue.NumberInQueue                1.0226     (Insuf)    .00000     3.0000     1.0000    
+Leave 2.Queue.NumberInQueue                 .00233     .00160     .00000     1.0000     .00000    
+Pedir Carretilla.Queue.NumberInQueue        2.7521     1.6130     .00000     17.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Number_out                                  162.00    
+Entidad_gaming.NumberIn                     71.000    
+Entidad_gaming.NumberOut                    52.000    
+Entidad_PC.NumberIn                         214.00    
+Entidad_PC.NumberOut                        214.00    
+Entidad_oficina.NumberIn                    143.00    
+Entidad_oficina.NumberOut                   110.00    
+Entidad_paquete.NumberIn                    5.0000    
+Entidad_paquete.NumberOut                   5.0000    
+Instalador.NumberSeized                     58.000    
+Instalador.ScheduledUtilization             .05425    
+Reparadores.NumberSeized                    55.000    
+Reparadores.ScheduledUtilization            .68994    
+Operario Almacén.NumberSeized               204.00    
+Operario Almacén.ScheduledUtilization       .55645    
+Soldador.NumberSeized                       174.00    
+Soldador.ScheduledUtilization               .94566    
+Cargadores.NumberSeized                     169.00    
+Cargadores.ScheduledUtilization             .11001    
+Wrapper.NumberSeized                        115.00    
+Wrapper.ScheduledUtilization                .17073    
+Ingeniero.NumberSeized                      190.00    
+Ingeniero.ScheduledUtilization              .30603    
+Tester.NumberSeized                         171.00    
+Tester.ScheduledUtilization                 .37907    
+System.NumberOut                            142.00    
+
+
+                                      ARENA Simulation Results
+                                      Anocim - License: STUDENT
+
+                                  Summary for Replication 4 of 10
+
+Project: Unnamed Project                                             Run execution date : 1/ 5/2026
+Analyst: Windows User                                                Model revision date: 1/ 5/2026
+
+Replication ended at time      : 168.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entidad_gaming.VATime                       1.2831     (Insuf)    .91153     2.0678         37    
+Entidad_gaming.NVATime                      .00000     (Insuf)    .00000     .00000         37    
+Entidad_gaming.WaitTime                     13.968     (Insuf)    .17424     22.608         37    
+Entidad_gaming.TranTime                     .61001     (Insuf)    .58571     .62171         37    
+Entidad_gaming.OtherTime                    .00000     (Insuf)    .00000     .00000         37    
+Entidad_gaming.TotalTime                    15.861     (Insuf)    1.9264     25.097         37    
+Entidad_PC.VATime                               --         --         --         --          0
+Entidad_PC.NVATime                              --         --         --         --          0
+Entidad_PC.WaitTime                             --         --         --         --          0
+Entidad_PC.TranTime                             --         --         --         --          0
+Entidad_PC.OtherTime                            --         --         --         --          0
+Entidad_PC.TotalTime                            --         --         --         --          0
+Entidad_oficina.VATime                      .88412     (Insuf)    .60457     1.5755         96    
+Entidad_oficina.NVATime                     .00000     (Insuf)    .00000     .00000         96    
+Entidad_oficina.WaitTime                    16.602     (Insuf)    .00167     23.197         96    
+Entidad_oficina.TranTime                    .61231     (Insuf)    .58571     .62183         96    
+Entidad_oficina.OtherTime                   .00000     (Insuf)    .00000     .00000         96    
+Entidad_oficina.TotalTime                   18.098     (Insuf)    1.5156     25.032         96    
+Entidad_paquete.VATime                      4.2690     (Insuf)    3.4978     5.0913          5    
+Entidad_paquete.NVATime                     .00000     (Insuf)    .00000     .00000          5    
+Entidad_paquete.WaitTime                    166.37     (Insuf)    60.483     292.09          5    
+Entidad_paquete.TranTime                    3.0796     (Insuf)    3.0364     3.1083          5    
+Entidad_paquete.OtherTime                   .00000     (Insuf)    .00000     .00000          5    
+Entidad_paquete.TotalTime                   54.683     (Insuf)    28.514     93.072          5    
+Leave 5.Queue.WaitingTime                   .00181     (Insuf)    .00000     .00486        120    
+Prep PlacaMadre.Queue.WaitingTime           3.7106     (Insuf)    .00000     15.988        174    
+Leave 7.Queue.WaitingTime                   .01716     (Insuf)    .00000     .15582         44    
+Batch 2.Queue.WaitingTime                   17.275     (Insuf)    .00000     75.456         25    
+Empaquetado.Queue.WaitingTime               .93371     (Insuf)    .00000     15.899        118    
+Arreglo.Queue.WaitingTime                   1.0236     (Insuf)    .00000     17.661         44    
+Leave 4.Queue.WaitingTime                   .00141     (Insuf)    .00000     .00487         45    
+kitting.Queue.WaitingTime                   3.2779     (Insuf)    .00000     15.996        195    
+Instalar Gráfica.Queue.WaitingTime          1.0354     (Insuf)    .00000     15.715         45    
+Testeo.Queue.WaitingTime                    .77276     (Insuf)    .00000     15.965        164    
+Leave 3.Queue.WaitingTime                   .00204     (Insuf)    .00000     .00484        166    
+Leave 6.Queue.WaitingTime                   .00199     (Insuf)    .00000     .00471        118    
+Ensamblaje Caja.Queue.WaitingTime           2.9446     (Insuf)    .00000     20.063        166    
+Leave 8.Queue.WaitingTime                   .03910     (Insuf)    .00000     .23703         44    
+Descarga.Queue.WaitingTime                  1.1616     (Insuf)    .00000     15.993        161    
+Leave 2.Queue.WaitingTime                   .00203     (Insuf)    .00000     .00487        174    
+Pedir Carretilla.Queue.WaitingTime          2.3348     (Insuf)    .00000     6.6192        195    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+WIP                                         24.385     (Corr)     .00000     40.000     40.000    
+Entidad_gaming.WIP                          7.0501     (Insuf)    .00000     12.000     10.000    
+Entidad_PC.WIP                              .00000     (Insuf)    .00000     1.0000     .00000    
+Entidad_oficina.WIP                         17.335     (Insuf)    .00000     31.000     30.000    
+Entidad_paquete.WIP                         .00000     (Insuf)    .00000     1.0000     .00000    
+Instalador.NumberBusy                       .01413     (Insuf)    .00000     1.0000     .00000    
+Instalador.NumberScheduled                  .33333     (Insuf)    .00000     1.0000     .00000    
+Instalador.Utilization                      .01413     (Insuf)    .00000     1.0000     .00000    
+Reparadores.NumberBusy                      .17792     (Insuf)    .00000     1.0000     .00000    
+Reparadores.NumberScheduled                 .33333     (Insuf)    .00000     1.0000     .00000    
+Reparadores.Utilization                     .17792     (Insuf)    .00000     1.0000     .00000    
+Operario Almacén.NumberBusy                 .17819     (Insuf)    .00000     1.0000     .00000    
+Operario Almacén.NumberScheduled            .33333     (Insuf)    .00000     1.0000     .00000    
+Operario Almacén.Utilization                .17819     (Insuf)    .00000     1.0000     .00000    
+Soldador.NumberBusy                         .30558     (Insuf)    .00000     1.0000     .00000    
+Soldador.NumberScheduled                    .33333     (Insuf)    .00000     1.0000     .00000    
+Soldador.Utilization                        .30558     (Insuf)    .00000     1.0000     .00000    
+Cargadores.NumberBusy                       .03185     (Insuf)    .00000     1.0000     1.0000    
+Cargadores.NumberScheduled                  .33333     (Insuf)    .00000     1.0000     1.0000    
+Cargadores.Utilization                      .03185     (Insuf)    .00000     1.0000     1.0000    
+Wrapper.NumberBusy                          .05726     (Insuf)    .00000     1.0000     .00000    
+Wrapper.NumberScheduled                     .33333     (Insuf)    .00000     1.0000     .00000    
+Wrapper.Utilization                         .05726     (Insuf)    .00000     1.0000     .00000    
+Ingeniero.NumberBusy                        .08650     (Insuf)    .00000     1.0000     .00000    
+Ingeniero.NumberScheduled                   .33333     (Insuf)    .00000     1.0000     .00000    
+Ingeniero.Utilization                       .08650     (Insuf)    .00000     1.0000     .00000    
+Tester.NumberBusy                           .11952     (Insuf)    .00000     1.0000     .00000    
+Tester.NumberScheduled                      .33333     (Insuf)    .00000     1.0000     .00000    
+Tester.Utilization                          .11952     (Insuf)    .00000     1.0000     .00000    
+Leave 5.Queue.NumberInQueue                 .00129     (Insuf)    .00000     1.0000     .00000    
+Prep PlacaMadre.Queue.NumberInQueue         5.3789     (Insuf)    .00000     21.000     21.000    
+Leave 7.Queue.NumberInQueue                 .00449     (Insuf)    .00000     1.0000     .00000    
+Batch 2.Queue.NumberInQueue                 3.0970     (Insuf)    .00000     8.0000     2.0000    
+Empaquetado.Queue.NumberInQueue             .84194     (Insuf)    .00000     2.0000     2.0000    
+Arreglo.Queue.NumberInQueue                 .26810     (Insuf)    .00000     3.0000     .00000    
+Leave 4.Queue.NumberInQueue                 3.7902E-04 (Insuf)    .00000     1.0000     .00000    
+kitting.Queue.NumberInQueue                 4.0462     (Insuf)    .00000     11.000     3.0000    
+Instalar Gráfica.Queue.NumberInQueue        .45931     (Insuf)    .00000     2.0000     2.0000    
+Testeo.Queue.NumberInQueue                  .75436     (Insuf)    .00000     3.0000     .00000    
+Leave 3.Queue.NumberInQueue                 .00201     (Insuf)    .00000     1.0000     .00000    
+Leave 6.Queue.NumberInQueue                 .00140     (Insuf)    .00000     1.0000     .00000    
+Ensamblaje Caja.Queue.NumberInQueue         3.7319     (Insuf)    .00000     15.000     8.0000    
+Leave 8.Queue.NumberInQueue                 .01024     (Insuf)    .00000     1.0000     .00000    
+Descarga.Queue.NumberInQueue                1.2023     (Insuf)    .00000     3.0000     1.0000    
+Leave 2.Queue.NumberInQueue                 .00211     (Insuf)    .00000     1.0000     .00000    
+Pedir Carretilla.Queue.NumberInQueue        2.7101     1.6948     .00000     19.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Number_out                                  158.00    
+Entidad_gaming.NumberIn                     52.000    
+Entidad_gaming.NumberOut                    42.000    
+Entidad_PC.NumberIn                         198.00    
+Entidad_PC.NumberOut                        198.00    
+Entidad_oficina.NumberIn                    146.00    
+Entidad_oficina.NumberOut                   116.00    
+Entidad_paquete.NumberIn                    5.0000    
+Entidad_paquete.NumberOut                   5.0000    
+Instalador.NumberSeized                     45.000    
+Instalador.ScheduledUtilization             .04238    
+Reparadores.NumberSeized                    44.000    
+Reparadores.ScheduledUtilization            .53375    
+Operario Almacén.NumberSeized               195.00    
+Operario Almacén.ScheduledUtilization       .53456    
+Soldador.NumberSeized                       166.00    
+Soldador.ScheduledUtilization               .91673    
+Cargadores.NumberSeized                     161.00    
+Cargadores.ScheduledUtilization             .09556    
+Wrapper.NumberSeized                        118.00    
+Wrapper.ScheduledUtilization                .17177    
+Ingeniero.NumberSeized                      174.00    
+Ingeniero.ScheduledUtilization              .25950    
+Tester.NumberSeized                         164.00    
+Tester.ScheduledUtilization                 .35855    
+System.NumberOut                            138.00    
+
+
+                                      ARENA Simulation Results
+                                      Anocim - License: STUDENT
+
+                                  Summary for Replication 5 of 10
+
+Project: Unnamed Project                                             Run execution date : 1/ 5/2026
+Analyst: Windows User                                                Model revision date: 1/ 5/2026
+
+Replication ended at time      : 168.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entidad_gaming.VATime                       1.2205     (Insuf)    .84714     2.1521         36    
+Entidad_gaming.NVATime                      .00000     (Insuf)    .00000     .00000         36    
+Entidad_gaming.WaitTime                     14.834     (Insuf)    .80789     21.459         36    
+Entidad_gaming.TranTime                     .61368     (Insuf)    .58571     .62171         36    
+Entidad_gaming.OtherTime                    .00000     (Insuf)    .00000     .00000         36    
+Entidad_gaming.TotalTime                    16.668     (Insuf)    2.7308     23.830         36    
+Entidad_PC.VATime                               --         --         --         --          0
+Entidad_PC.NVATime                              --         --         --         --          0
+Entidad_PC.WaitTime                             --         --         --         --          0
+Entidad_PC.TranTime                             --         --         --         --          0
+Entidad_PC.OtherTime                            --         --         --         --          0
+Entidad_PC.TotalTime                            --         --         --         --          0
+Entidad_oficina.VATime                      .87447     (Insuf)    .57786     1.4341         96    
+Entidad_oficina.NVATime                     .00000     (Insuf)    .00000     .00000         96    
+Entidad_oficina.WaitTime                    13.583     (Insuf)    2.2246E-04 21.485         96    
+Entidad_oficina.TranTime                    .61343     (Insuf)    .58571     .62174         96    
+Entidad_oficina.OtherTime                   .00000     (Insuf)    .00000     .00000         96    
+Entidad_oficina.TotalTime                   15.071     (Insuf)    1.3740     23.337         96    
+Entidad_paquete.VATime                      5.0144     (Insuf)    4.1440     6.3313          7    
+Entidad_paquete.NVATime                     .00000     (Insuf)    .00000     .00000          7    
+Entidad_paquete.WaitTime                    168.58     (Insuf)    109.39     250.05          7    
+Entidad_paquete.TranTime                    3.0467     (Insuf)    2.9645     3.1083          7    
+Entidad_paquete.OtherTime                   .00000     (Insuf)    .00000     .00000          7    
+Entidad_paquete.TotalTime                   53.110     (Insuf)    26.464     73.781          7    
+Leave 5.Queue.WaitingTime                   .00160     (Insuf)    .00000     .00489        127    
+Prep PlacaMadre.Queue.WaitingTime           2.9908     (Insuf)    .00000     16.000        180    
+Leave 7.Queue.WaitingTime                   .01858     (Insuf)    .00000     .21651         44    
+Batch 2.Queue.WaitingTime                   20.014     (Insuf)    .00000     69.743         35    
+Empaquetado.Queue.WaitingTime               .12753     (Insuf)    .00000     15.981        126    
+Arreglo.Queue.WaitingTime                   .61420     (Insuf)    .00000     16.335         44    
+Leave 4.Queue.WaitingTime                   .00144     (Insuf)    .00000     .00427         48    
+kitting.Queue.WaitingTime                   2.6228     (Insuf)    .00000     16.029        180    
+Instalar Gráfica.Queue.WaitingTime          1.6341     (Insuf)    .00000     15.987         48    
+Testeo.Queue.WaitingTime                    1.1034     (Insuf)    .00000     15.988        171    
+Leave 3.Queue.WaitingTime                   .00199     (Insuf)    .00000     .00477        175    
+Leave 6.Queue.WaitingTime                   .00201     (Insuf)    .00000     .00483        126    
+Ensamblaje Caja.Queue.WaitingTime           3.3619     (Insuf)    .00000     18.123        175    
+Leave 8.Queue.WaitingTime                   .02432     (Insuf)    .00000     .26548         44    
+Descarga.Queue.WaitingTime                  .94052     (Insuf)    .00000     15.976        168    
+Leave 2.Queue.WaitingTime                   .00197     (Insuf)    .00000     .00489        179    
+Pedir Carretilla.Queue.WaitingTime          1.4378     (Insuf)    .00000     3.2692        180    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+WIP                                         21.454     (Corr)     .00000     31.000     18.000    
+Entidad_gaming.WIP                          6.9456     (Insuf)    .00000     12.000     5.0000    
+Entidad_PC.WIP                              .00000     (Insuf)    .00000     1.0000     .00000    
+Entidad_oficina.WIP                         14.509     (Insuf)    .00000     21.000     13.000    
+Entidad_paquete.WIP                         .00000     (Insuf)    .00000     1.0000     .00000    
+Instalador.NumberBusy                       .01575     (Insuf)    .00000     1.0000     .00000    
+Instalador.NumberScheduled                  .33333     (Insuf)    .00000     1.0000     1.0000    
+Instalador.Utilization                      .01575     (Insuf)    .00000     1.0000     .00000    
+Reparadores.NumberBusy                      .18007     (Insuf)    .00000     1.0000     .00000    
+Reparadores.NumberScheduled                 .33333     (Insuf)    .00000     1.0000     .00000    
+Reparadores.Utilization                     .18007     (Insuf)    .00000     1.0000     .00000    
+Operario Almacén.NumberBusy                 .16535     (Insuf)    .00000     1.0000     .00000    
+Operario Almacén.NumberScheduled            .33333     (Insuf)    .00000     1.0000     .00000    
+Operario Almacén.Utilization                .16535     (Insuf)    .00000     1.0000     .00000    
+Soldador.NumberBusy                         .31837     (Insuf)    .00000     1.0000     .00000    
+Soldador.NumberScheduled                    .33333     (Insuf)    .00000     1.0000     .00000    
+Soldador.Utilization                        .31837     (Insuf)    .00000     1.0000     .00000    
+Cargadores.NumberBusy                       .03460     (Insuf)    .00000     1.0000     .00000    
+Cargadores.NumberScheduled                  .33333     (Insuf)    .00000     1.0000     .00000    
+Cargadores.Utilization                      .03460     (Insuf)    .00000     1.0000     .00000    
+Wrapper.NumberBusy                          .06182     (Insuf)    .00000     1.0000     .00000    
+Wrapper.NumberScheduled                     .33333     (Insuf)    .00000     1.0000     .00000    
+Wrapper.Utilization                         .06182     (Insuf)    .00000     1.0000     .00000    
+Ingeniero.NumberBusy                        .09172     (Insuf)    .00000     1.0000     1.0000    
+Ingeniero.NumberScheduled                   .33333     (Insuf)    .00000     1.0000     1.0000    
+Ingeniero.Utilization                       .09172     (Insuf)    .00000     1.0000     1.0000    
+Tester.NumberBusy                           .12165     (Insuf)    .00000     1.0000     .00000    
+Tester.NumberScheduled                      .33333     (Insuf)    .00000     1.0000     .00000    
+Tester.Utilization                          .12165     (Insuf)    .00000     1.0000     .00000    
+Leave 5.Queue.NumberInQueue                 .00121     (Insuf)    .00000     1.0000     .00000    
+Prep PlacaMadre.Queue.NumberInQueue         3.2044     (Insuf)    .00000     10.000     .00000    
+Leave 7.Queue.NumberInQueue                 .00487     (Insuf)    .00000     1.0000     .00000    
+Batch 2.Queue.NumberInQueue                 4.2701     (Insuf)    .00000     9.0000     1.0000    
+Empaquetado.Queue.NumberInQueue             .18952     (Insuf)    .00000     1.0000     1.0000    
+Arreglo.Queue.NumberInQueue                 .16086     (Insuf)    .00000     2.0000     .00000    
+Leave 4.Queue.NumberInQueue                 4.1148E-04 (Insuf)    .00000     1.0000     .00000    
+kitting.Queue.NumberInQueue                 3.2044     (Insuf)    .00000     9.0000     5.0000    
+Instalar Gráfica.Queue.NumberInQueue        .46690     (Insuf)    .00000     2.0000     .00000    
+Testeo.Queue.NumberInQueue                  1.4898     (Insuf)    .00000     4.0000     4.0000    
+Leave 3.Queue.NumberInQueue                 .00207     (Insuf)    .00000     1.0000     .00000    
+Leave 6.Queue.NumberInQueue                 .00151     (Insuf)    .00000     1.0000     .00000    
+Ensamblaje Caja.Queue.NumberInQueue         3.9036     .99093     .00000     10.000     4.0000    
+Leave 8.Queue.NumberInQueue                 .00637     (Insuf)    .00000     1.0000     .00000    
+Descarga.Queue.NumberInQueue                1.1253     (Insuf)    .00000     3.0000     2.0000    
+Leave 2.Queue.NumberInQueue                 .00210     (Insuf)    .00000     1.0000     .00000    
+Pedir Carretilla.Queue.NumberInQueue        1.5405     .94561     .00000     10.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Number_out                                  167.00    
+Entidad_gaming.NumberIn                     51.000    
+Entidad_gaming.NumberOut                    46.000    
+Entidad_PC.NumberIn                         185.00    
+Entidad_PC.NumberOut                        185.00    
+Entidad_oficina.NumberIn                    134.00    
+Entidad_oficina.NumberOut                   121.00    
+Entidad_paquete.NumberIn                    7.0000    
+Entidad_paquete.NumberOut                   7.0000    
+Instalador.NumberSeized                     48.000    
+Instalador.ScheduledUtilization             .04726    
+Reparadores.NumberSeized                    44.000    
+Reparadores.ScheduledUtilization            .54020    
+Operario Almacén.NumberSeized               180.00    
+Operario Almacén.ScheduledUtilization       .49605    
+Soldador.NumberSeized                       175.00    
+Soldador.ScheduledUtilization               .95510    
+Cargadores.NumberSeized                     168.00    
+Cargadores.ScheduledUtilization             .10379    
+Wrapper.NumberSeized                        126.00    
+Wrapper.ScheduledUtilization                .18545    
+Ingeniero.NumberSeized                      180.00    
+Ingeniero.ScheduledUtilization              .27515    
+Tester.NumberSeized                         171.00    
+Tester.ScheduledUtilization                 .36494    
+System.NumberOut                            139.00    
+
+
+                                      ARENA Simulation Results
+                                      Anocim - License: STUDENT
+
+                                  Summary for Replication 6 of 10
+
+Project: Unnamed Project                                             Run execution date : 1/ 5/2026
+Analyst: Windows User                                                Model revision date: 1/ 5/2026
+
+Replication ended at time      : 168.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entidad_gaming.VATime                       1.1786     (Insuf)    .86471     2.0936         43    
+Entidad_gaming.NVATime                      .00000     (Insuf)    .00000     .00000         43    
+Entidad_gaming.WaitTime                     12.497     (Insuf)    .17025     20.726         43    
+Entidad_gaming.TranTime                     .61331     (Insuf)    .58571     .62167         43    
+Entidad_gaming.OtherTime                    .00000     (Insuf)    .00000     .00000         43    
+Entidad_gaming.TotalTime                    14.289     (Insuf)    1.8367     22.719         43    
+Entidad_PC.VATime                               --         --         --         --          0
+Entidad_PC.NVATime                              --         --         --         --          0
+Entidad_PC.WaitTime                             --         --         --         --          0
+Entidad_PC.TranTime                             --         --         --         --          0
+Entidad_PC.OtherTime                            --         --         --         --          0
+Entidad_PC.TotalTime                            --         --         --         --          0
+Entidad_oficina.VATime                      .83768     (Insuf)    .52233     1.4839         88    
+Entidad_oficina.NVATime                     .00000     (Insuf)    .00000     .00000         88    
+Entidad_oficina.WaitTime                    12.711     (Insuf)    .00167     20.852         88    
+Entidad_oficina.TranTime                    .61513     (Insuf)    .58571     .62176         88    
+Entidad_oficina.OtherTime                   .00000     (Insuf)    .00000     .00000         88    
+Entidad_oficina.TotalTime                   14.164     (Insuf)    1.3749     22.697         88    
+Entidad_paquete.VATime                      4.7228     (Insuf)    3.4937     5.8063          6    
+Entidad_paquete.NVATime                     .00000     (Insuf)    .00000     .00000          6    
+Entidad_paquete.WaitTime                    140.38     (Insuf)    63.105     340.08          6    
+Entidad_paquete.TranTime                    3.0484     (Insuf)    3.0004     3.1083          6    
+Entidad_paquete.OtherTime                   .00000     (Insuf)    .00000     .00000          6    
+Entidad_paquete.TotalTime                   49.439     (Insuf)    28.523     115.48          6    
+Leave 5.Queue.WaitingTime                   .00180     (Insuf)    .00000     .00470        127    
+Prep PlacaMadre.Queue.WaitingTime           2.4364     (Insuf)    .00000     16.058        172    
+Leave 7.Queue.WaitingTime                   .02234     (Insuf)    .00000     .20692         37    
+Batch 2.Queue.WaitingTime                   16.530     (Insuf)    .00000     97.273         30    
+Empaquetado.Queue.WaitingTime               .99540     (Insuf)    .00000     15.957        127    
+Arreglo.Queue.WaitingTime                   .22513     (Insuf)    .00000     .92769         37    
+Leave 4.Queue.WaitingTime                   .00160     (Insuf)    .00000     .00479         49    
+kitting.Queue.WaitingTime                   3.4706     (Insuf)    .00000     16.012        174    
+Instalar Gráfica.Queue.WaitingTime          2.4735     (Insuf)    .00000     15.788         50    
+Testeo.Queue.WaitingTime                    .77430     (Insuf)    .00000     16.023        164    
+Leave 3.Queue.WaitingTime                   .00193     (Insuf)    .00000     .00489        169    
+Leave 6.Queue.WaitingTime                   .00192     (Insuf)    .00000     .00484        126    
+Ensamblaje Caja.Queue.WaitingTime           1.8419     (Insuf)    .00000     17.506        169    
+Leave 8.Queue.WaitingTime                   .02570     (Insuf)    .00000     .20884         37    
+Descarga.Queue.WaitingTime                  .38335     (Insuf)    .00000     15.997        162    
+Leave 2.Queue.WaitingTime                   .00204     (Insuf)    .00000     .00487        172    
+Pedir Carretilla.Queue.WaitingTime          1.6061     (Insuf)    .00000     3.4382        174    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+WIP                                         18.614     (Insuf)    .00000     28.000     20.000    
+Entidad_gaming.WIP                          6.3846     (Insuf)    .00000     11.000     5.0000    
+Entidad_PC.WIP                              .00000     (Insuf)    .00000     1.0000     .00000    
+Entidad_oficina.WIP                         12.230     (Insuf)    .00000     19.000     15.000    
+Entidad_paquete.WIP                         .00000     (Insuf)    .00000     1.0000     .00000    
+Instalador.NumberBusy                       .01606     (Insuf)    .00000     1.0000     1.0000    
+Instalador.NumberScheduled                  .33333     (Insuf)    .00000     1.0000     1.0000    
+Instalador.Utilization                      .01606     (Insuf)    .00000     1.0000     1.0000    
+Reparadores.NumberBusy                      .14885     (Insuf)    .00000     1.0000     .00000    
+Reparadores.NumberScheduled                 .33333     (Insuf)    .00000     1.0000     .00000    
+Reparadores.Utilization                     .14885     (Insuf)    .00000     1.0000     .00000    
+Operario Almacén.NumberBusy                 .15681     (Insuf)    .00000     1.0000     .00000    
+Operario Almacén.NumberScheduled            .33333     (Insuf)    .00000     1.0000     .00000    
+Operario Almacén.Utilization                .15681     (Insuf)    .00000     1.0000     .00000    
+Soldador.NumberBusy                         .29784     (Insuf)    .00000     1.0000     .00000    
+Soldador.NumberScheduled                    .33333     (Insuf)    .00000     1.0000     .00000    
+Soldador.Utilization                        .29784     (Insuf)    .00000     1.0000     .00000    
+Cargadores.NumberBusy                       .03166     (Insuf)    .00000     1.0000     .00000    
+Cargadores.NumberScheduled                  .33333     (Insuf)    .00000     1.0000     .00000    
+Cargadores.Utilization                      .03166     (Insuf)    .00000     1.0000     .00000    
+Wrapper.NumberBusy                          .06201     (Insuf)    .00000     1.0000     1.0000    
+Wrapper.NumberScheduled                     .33333     (Insuf)    .00000     1.0000     1.0000    
+Wrapper.Utilization                         .06201     (Insuf)    .00000     1.0000     1.0000    
+Ingeniero.NumberBusy                        .08892     (Insuf)    .00000     1.0000     .00000    
+Ingeniero.NumberScheduled                   .33333     (Insuf)    .00000     1.0000     .00000    
+Ingeniero.Utilization                       .08892     (Insuf)    .00000     1.0000     .00000    
+Tester.NumberBusy                           .12064     (Insuf)    .00000     1.0000     .00000    
+Tester.NumberScheduled                      .33333     (Insuf)    .00000     1.0000     .00000    
+Tester.Utilization                          .12064     (Insuf)    .00000     1.0000     .00000    
+Leave 5.Queue.NumberInQueue                 .00136     (Insuf)    .00000     1.0000     .00000    
+Prep PlacaMadre.Queue.NumberInQueue         2.6779     (Insuf)    .00000     7.0000     2.0000    
+Leave 7.Queue.NumberInQueue                 .00492     (Insuf)    .00000     1.0000     .00000    
+Batch 2.Queue.NumberInQueue                 3.0757     (Insuf)    .00000     9.0000     1.0000    
+Empaquetado.Queue.NumberInQueue             .75247     (Insuf)    .00000     2.0000     .00000    
+Arreglo.Queue.NumberInQueue                 .04958     (Insuf)    .00000     2.0000     .00000    
+Leave 4.Queue.NumberInQueue                 4.6652E-04 (Insuf)    .00000     1.0000     .00000    
+kitting.Queue.NumberInQueue                 4.1509     (Insuf)    .00000     9.0000     7.0000    
+Instalar Gráfica.Queue.NumberInQueue        .73619     (Insuf)    .00000     2.0000     .00000    
+Testeo.Queue.NumberInQueue                  1.1113     (Insuf)    .00000     4.0000     4.0000    
+Leave 3.Queue.NumberInQueue                 .00194     (Insuf)    .00000     1.0000     .00000    
+Leave 6.Queue.NumberInQueue                 .00144     (Insuf)    .00000     1.0000     .00000    
+Ensamblaje Caja.Queue.NumberInQueue         2.1400     .80076     .00000     10.000     3.0000    
+Leave 8.Queue.NumberInQueue                 .00566     (Insuf)    .00000     1.0000     .00000    
+Descarga.Queue.NumberInQueue                .46242     (Insuf)    .00000     2.0000     1.0000    
+Leave 2.Queue.NumberInQueue                 .00209     (Insuf)    .00000     1.0000     .00000    
+Pedir Carretilla.Queue.NumberInQueue        1.6634     1.1155     .00000     10.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Number_out                                  161.00    
+Entidad_gaming.NumberIn                     53.000    
+Entidad_gaming.NumberOut                    48.000    
+Entidad_PC.NumberIn                         181.00    
+Entidad_PC.NumberOut                        181.00    
+Entidad_oficina.NumberIn                    128.00    
+Entidad_oficina.NumberOut                   113.00    
+Entidad_paquete.NumberIn                    6.0000    
+Entidad_paquete.NumberOut                   6.0000    
+Instalador.NumberSeized                     50.000    
+Instalador.ScheduledUtilization             .04819    
+Reparadores.NumberSeized                    37.000    
+Reparadores.ScheduledUtilization            .44656    
+Operario Almacén.NumberSeized               174.00    
+Operario Almacén.ScheduledUtilization       .47043    
+Soldador.NumberSeized                       169.00    
+Soldador.ScheduledUtilization               .89352    
+Cargadores.NumberSeized                     162.00    
+Cargadores.ScheduledUtilization             .09499    
+Wrapper.NumberSeized                        127.00    
+Wrapper.ScheduledUtilization                .18603    
+Ingeniero.NumberSeized                      172.00    
+Ingeniero.ScheduledUtilization              .26675    
+Tester.NumberSeized                         164.00    
+Tester.ScheduledUtilization                 .36192    
+System.NumberOut                            137.00    
+
+
+                                      ARENA Simulation Results
+                                      Anocim - License: STUDENT
+
+                                  Summary for Replication 7 of 10
+
+Project: Unnamed Project                                             Run execution date : 1/ 5/2026
+Analyst: Windows User                                                Model revision date: 1/ 5/2026
+
+Replication ended at time      : 168.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entidad_gaming.VATime                       1.3656     (Insuf)    .89339     2.0939         42    
+Entidad_gaming.NVATime                      .00000     (Insuf)    .00000     .00000         42    
+Entidad_gaming.WaitTime                     16.347     (Insuf)    .00000     34.293         42    
+Entidad_gaming.TranTime                     .60712     (Insuf)    .58571     .62167         42    
+Entidad_gaming.OtherTime                    .00000     (Insuf)    .00000     .00000         42    
+Entidad_gaming.TotalTime                    18.319     (Insuf)    1.7232     36.973         42    
+Entidad_PC.VATime                               --         --         --         --          0
+Entidad_PC.NVATime                              --         --         --         --          0
+Entidad_PC.WaitTime                             --         --         --         --          0
+Entidad_PC.TranTime                             --         --         --         --          0
+Entidad_PC.OtherTime                            --         --         --         --          0
+Entidad_PC.TotalTime                            --         --         --         --          0
+Entidad_oficina.VATime                      .90320     (Insuf)    .55642     1.4969         95    
+Entidad_oficina.NVATime                     .00000     (Insuf)    .00000     .00000         95    
+Entidad_oficina.WaitTime                    17.587     (Insuf)    .43584     23.509         95    
+Entidad_oficina.TranTime                    .61183     (Insuf)    .58571     .62171         95    
+Entidad_oficina.OtherTime                   .00000     (Insuf)    .00000     .00000         95    
+Entidad_oficina.TotalTime                   19.102     (Insuf)    1.8054     25.571         95    
+Entidad_paquete.VATime                      4.6702     (Insuf)    3.6702     7.0374          4    
+Entidad_paquete.NVATime                     .00000     (Insuf)    .00000     .00000          4    
+Entidad_paquete.WaitTime                    150.01     (Insuf)    98.895     198.30          4    
+Entidad_paquete.TranTime                    3.0813     (Insuf)    3.0364     3.1083          4    
+Entidad_paquete.OtherTime                   .00000     (Insuf)    .00000     .00000          4    
+Entidad_paquete.TotalTime                   39.300     (Insuf)    26.964     52.948          4    
+Leave 5.Queue.WaitingTime                   .00191     (Insuf)    .00000     .00487        117    
+Prep PlacaMadre.Queue.WaitingTime           2.9235     (Insuf)    .00000     15.991        181    
+Leave 7.Queue.WaitingTime                   .01635     (Insuf)    .00000     .20985         47    
+Batch 2.Queue.WaitingTime                   16.309     (Insuf)    .00000     48.238         20    
+Empaquetado.Queue.WaitingTime               .41360     (Insuf)    .00000     15.918        115    
+Arreglo.Queue.WaitingTime                   2.7070     (Insuf)    .00000     17.376         47    
+Leave 4.Queue.WaitingTime                   9.0003E-04 (Insuf)    .00000     .00459         51    
+kitting.Queue.WaitingTime                   3.7822     (Insuf)    .00000     16.113        188    
+Instalar Gráfica.Queue.WaitingTime          .93239     (Insuf)    .00000     15.926         51    
+Testeo.Queue.WaitingTime                    .57706     (Insuf)    .00000     15.866        164    
+Leave 3.Queue.WaitingTime                   .00201     (Insuf)    .00000     .00489        166    
+Leave 6.Queue.WaitingTime                   .00203     (Insuf)    .00000     .00490        115    
+Ensamblaje Caja.Queue.WaitingTime           5.6509     (Insuf)    .00000     19.960        166    
+Leave 8.Queue.WaitingTime                   .04450     (Insuf)    .00000     .26151         47    
+Descarga.Queue.WaitingTime                  .39522     (Insuf)    .00000     15.943        161    
+Leave 2.Queue.WaitingTime                   .00202     (Insuf)    .00000     .00473        181    
+Pedir Carretilla.Queue.WaitingTime          1.9337     (Insuf)    .00000     5.3929        187    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+WIP                                         25.515     (Corr)     .00000     39.000     36.000    
+Entidad_gaming.WIP                          7.9589     (Insuf)    .00000     15.000     11.000    
+Entidad_PC.WIP                              .00000     (Insuf)    .00000     1.0000     .00000    
+Entidad_oficina.WIP                         17.556     (Insuf)    .00000     29.000     25.000    
+Entidad_paquete.WIP                         .00000     (Insuf)    .00000     1.0000     .00000    
+Instalador.NumberBusy                       .01718     (Insuf)    .00000     1.0000     .00000    
+Instalador.NumberScheduled                  .33333     (Insuf)    .00000     1.0000     1.0000    
+Instalador.Utilization                      .01718     (Insuf)    .00000     1.0000     .00000    
+Reparadores.NumberBusy                      .20546     (Insuf)    .00000     1.0000     .00000    
+Reparadores.NumberScheduled                 .33333     (Insuf)    .00000     1.0000     .00000    
+Reparadores.Utilization                     .20546     (Insuf)    .00000     1.0000     .00000    
+Operario Almacén.NumberBusy                 .17346     (Insuf)    .00000     1.0000     1.0000    
+Operario Almacén.NumberScheduled            .33333     (Insuf)    .00000     1.0000     1.0000    
+Operario Almacén.Utilization                .17346     (Insuf)    .00000     1.0000     1.0000    
+Soldador.NumberBusy                         .30037     (Insuf)    .00000     1.0000     .00000    
+Soldador.NumberScheduled                    .33333     (Insuf)    .00000     1.0000     .00000    
+Soldador.Utilization                        .30037     (Insuf)    .00000     1.0000     .00000    
+Cargadores.NumberBusy                       .03825     (Insuf)    .00000     1.0000     .00000    
+Cargadores.NumberScheduled                  .33333     (Insuf)    .00000     1.0000     .00000    
+Cargadores.Utilization                      .03825     (Insuf)    .00000     1.0000     .00000    
+Wrapper.NumberBusy                          .05726     (Insuf)    .00000     1.0000     .00000    
+Wrapper.NumberScheduled                     .33333     (Insuf)    .00000     1.0000     .00000    
+Wrapper.Utilization                         .05726     (Insuf)    .00000     1.0000     .00000    
+Ingeniero.NumberBusy                        .09825     (Insuf)    .00000     1.0000     .00000    
+Ingeniero.NumberScheduled                   .33333     (Insuf)    .00000     1.0000     .00000    
+Ingeniero.Utilization                       .09825     (Insuf)    .00000     1.0000     .00000    
+Tester.NumberBusy                           .12270     (Insuf)    .00000     1.0000     .00000    
+Tester.NumberScheduled                      .33333     (Insuf)    .00000     1.0000     .00000    
+Tester.Utilization                          .12270     (Insuf)    .00000     1.0000     .00000    
+Leave 5.Queue.NumberInQueue                 .00133     (Insuf)    .00000     1.0000     .00000    
+Prep PlacaMadre.Queue.NumberInQueue         3.6897     (Insuf)    .00000     14.000     6.0000    
+Leave 7.Queue.NumberInQueue                 .00457     (Insuf)    .00000     1.0000     .00000    
+Batch 2.Queue.NumberInQueue                 3.1303     (Insuf)    .00000     8.0000     4.0000    
+Empaquetado.Queue.NumberInQueue             .47115     (Insuf)    .00000     2.0000     2.0000    
+Arreglo.Queue.NumberInQueue                 .75731     (Insuf)    .00000     3.0000     .00000    
+Leave 4.Queue.NumberInQueue                 2.7322E-04 (Insuf)    .00000     1.0000     .00000    
+kitting.Queue.NumberInQueue                 4.6295     (Insuf)    .00000     11.000     5.0000    
+Instalar Gráfica.Queue.NumberInQueue        .28305     (Insuf)    .00000     1.0000     .00000    
+Testeo.Queue.NumberInQueue                  .74831     (Insuf)    .00000     2.0000     2.0000    
+Leave 3.Queue.NumberInQueue                 .00198     (Insuf)    .00000     1.0000     .00000    
+Leave 6.Queue.NumberInQueue                 .00139     (Insuf)    .00000     1.0000     .00000    
+Ensamblaje Caja.Queue.NumberInQueue         7.2527     (Insuf)    .00000     18.000     15.000    
+Leave 8.Queue.NumberInQueue                 .01245     (Insuf)    .00000     1.0000     .00000    
+Descarga.Queue.NumberInQueue                .47177     (Insuf)    .00000     2.0000     1.0000    
+Leave 2.Queue.NumberInQueue                 .00218     (Insuf)    .00000     1.0000     .00000    
+Pedir Carretilla.Queue.NumberInQueue        2.1524     1.3684     .00000     16.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Number_out                                  157.00    
+Entidad_gaming.NumberIn                     58.000    
+Entidad_gaming.NumberOut                    47.000    
+Entidad_PC.NumberIn                         193.00    
+Entidad_PC.NumberOut                        193.00    
+Entidad_oficina.NumberIn                    135.00    
+Entidad_oficina.NumberOut                   110.00    
+Entidad_paquete.NumberIn                    4.0000    
+Entidad_paquete.NumberOut                   4.0000    
+Instalador.NumberSeized                     51.000    
+Instalador.ScheduledUtilization             .05155    
+Reparadores.NumberSeized                    47.000    
+Reparadores.ScheduledUtilization            .61637    
+Operario Almacén.NumberSeized               188.00    
+Operario Almacén.ScheduledUtilization       .52038    
+Soldador.NumberSeized                       166.00    
+Soldador.ScheduledUtilization               .90110    
+Cargadores.NumberSeized                     161.00    
+Cargadores.ScheduledUtilization             .11474    
+Wrapper.NumberSeized                        115.00    
+Wrapper.ScheduledUtilization                .17178    
+Ingeniero.NumberSeized                      181.00    
+Ingeniero.ScheduledUtilization              .29476    
+Tester.NumberSeized                         164.00    
+Tester.ScheduledUtilization                 .36811    
+System.NumberOut                            141.00    
+
+
+                                      ARENA Simulation Results
+                                      Anocim - License: STUDENT
+
+                                  Summary for Replication 8 of 10
+
+Project: Unnamed Project                                             Run execution date : 1/ 5/2026
+Analyst: Windows User                                                Model revision date: 1/ 5/2026
+
+Replication ended at time      : 168.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entidad_gaming.VATime                       1.1372     (Insuf)    .82524     2.0271         39    
+Entidad_gaming.NVATime                      .00000     (Insuf)    .00000     .00000         39    
+Entidad_gaming.WaitTime                     9.3100     (Insuf)    .00107     18.668         39    
+Entidad_gaming.TranTime                     .61522     (Insuf)    .58571     .62172         39    
+Entidad_gaming.OtherTime                    .00000     (Insuf)    .00000     .00000         39    
+Entidad_gaming.TotalTime                    11.062     (Insuf)    1.7084     20.806         39    
+Entidad_PC.VATime                               --         --         --         --          0
+Entidad_PC.NVATime                              --         --         --         --          0
+Entidad_PC.WaitTime                             --         --         --         --          0
+Entidad_PC.TranTime                             --         --         --         --          0
+Entidad_PC.OtherTime                            --         --         --         --          0
+Entidad_PC.TotalTime                            --         --         --         --          0
+Entidad_oficina.VATime                      .90556     (Insuf)    .56958     1.4915         79    
+Entidad_oficina.NVATime                     .00000     (Insuf)    .00000     .00000         79    
+Entidad_oficina.WaitTime                    8.4868     (Insuf)    .17026     19.070         79    
+Entidad_oficina.TranTime                    .61166     (Insuf)    .58571     .62175         79    
+Entidad_oficina.OtherTime                   .00000     (Insuf)    .00000     .00000         79    
+Entidad_oficina.TotalTime                   10.004     (Insuf)    1.4384     21.075         79    
+Entidad_paquete.VATime                      5.2605     (Insuf)    4.3876     6.1739          6    
+Entidad_paquete.NVATime                     .00000     (Insuf)    .00000     .00000          6    
+Entidad_paquete.WaitTime                    148.16     (Insuf)    58.026     302.63          6    
+Entidad_paquete.TranTime                    3.0484     (Insuf)    3.0004     3.0724          6    
+Entidad_paquete.OtherTime                   .00000     (Insuf)    .00000     .00000          6    
+Entidad_paquete.TotalTime                   48.667     (Insuf)    25.678     110.03          6    
+Leave 5.Queue.WaitingTime                   .00175     (Insuf)    .00000     .00485        113    
+Prep PlacaMadre.Queue.WaitingTime           1.7547     (Insuf)    .00000     15.805        153    
+Leave 7.Queue.WaitingTime                   .01250     (Insuf)    .00000     .22754         40    
+Batch 2.Queue.WaitingTime                   20.558     (Insuf)    .00000     92.945         30    
+Empaquetado.Queue.WaitingTime               .70393     (Insuf)    .00000     15.990        113    
+Arreglo.Queue.WaitingTime                   .18999     (Insuf)    .00000     .84902         40    
+Leave 4.Queue.WaitingTime                   .00124     (Insuf)    .00000     .00417         50    
+kitting.Queue.WaitingTime                   2.5703     (Insuf)    .00000     16.011        154    
+Instalar Gráfica.Queue.WaitingTime          .94715     (Insuf)    .00000     15.882         50    
+Testeo.Queue.WaitingTime                    .62185     (Insuf)    .00000     15.962        153    
+Leave 3.Queue.WaitingTime                   .00214     (Insuf)    .00000     .00480        153    
+Leave 6.Queue.WaitingTime                   .00164     (Insuf)    .00000     .00483        113    
+Ensamblaje Caja.Queue.WaitingTime           1.0198     (Insuf)    .00000     16.240        153    
+Leave 8.Queue.WaitingTime                   .01420     (Insuf)    .00000     .20841         40    
+Descarga.Queue.WaitingTime                  .70543     (Insuf)    .00000     15.960        153    
+Leave 2.Queue.WaitingTime                   .00214     (Insuf)    .00000     .00481        153    
+Pedir Carretilla.Queue.WaitingTime          .97385     (Insuf)    .00000     2.5698        154    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+WIP                                         14.050     (Insuf)    .00000     23.000     9.0000    
+Entidad_gaming.WIP                          5.6625     (Insuf)    .00000     11.000     2.0000    
+Entidad_PC.WIP                              .00000     (Insuf)    .00000     1.0000     .00000    
+Entidad_oficina.WIP                         8.3884     (Insuf)    .00000     15.000     7.0000    
+Entidad_paquete.WIP                         .00000     (Insuf)    .00000     1.0000     .00000    
+Instalador.NumberBusy                       .01647     (Insuf)    .00000     1.0000     .00000    
+Instalador.NumberScheduled                  .33333     (Insuf)    .00000     1.0000     1.0000    
+Instalador.Utilization                      .01647     (Insuf)    .00000     1.0000     .00000    
+Reparadores.NumberBusy                      .16098     (Insuf)    .00000     1.0000     .00000    
+Reparadores.NumberScheduled                 .33333     (Insuf)    .00000     1.0000     .00000    
+Reparadores.Utilization                     .16098     (Insuf)    .00000     1.0000     .00000    
+Operario Almacén.NumberBusy                 .14760     (Insuf)    .00000     1.0000     .00000    
+Operario Almacén.NumberScheduled            .33333     (Insuf)    .00000     1.0000     .00000    
+Operario Almacén.Utilization                .14760     (Insuf)    .00000     1.0000     .00000    
+Soldador.NumberBusy                         .27336     (Insuf)    .00000     1.0000     .00000    
+Soldador.NumberScheduled                    .33333     (Insuf)    .00000     1.0000     .00000    
+Soldador.Utilization                        .27336     (Insuf)    .00000     1.0000     .00000    
+Cargadores.NumberBusy                       .03190     (Insuf)    .00000     1.0000     .00000    
+Cargadores.NumberScheduled                  .33333     (Insuf)    .00000     1.0000     .00000    
+Cargadores.Utilization                      .03190     (Insuf)    .00000     1.0000     .00000    
+Wrapper.NumberBusy                          .05590     (Insuf)    .00000     1.0000     .00000    
+Wrapper.NumberScheduled                     .33333     (Insuf)    .00000     1.0000     1.0000    
+Wrapper.Utilization                         .05590     (Insuf)    .00000     1.0000     .00000    
+Ingeniero.NumberBusy                        .08449     (Insuf)    .00000     1.0000     .00000    
+Ingeniero.NumberScheduled                   .33333     (Insuf)    .00000     1.0000     .00000    
+Ingeniero.Utilization                       .08449     (Insuf)    .00000     1.0000     .00000    
+Tester.NumberBusy                           .11213     (Insuf)    .00000     1.0000     .00000    
+Tester.NumberScheduled                      .33333     (Insuf)    .00000     1.0000     .00000    
+Tester.Utilization                          .11213     (Insuf)    .00000     1.0000     .00000    
+Leave 5.Queue.NumberInQueue                 .00118     (Insuf)    .00000     1.0000     .00000    
+Prep PlacaMadre.Queue.NumberInQueue         1.6915     (Insuf)    .00000     5.0000     1.0000    
+Leave 7.Queue.NumberInQueue                 .00298     (Insuf)    .00000     1.0000     .00000    
+Batch 2.Queue.NumberInQueue                 4.2381     (Insuf)    .00000     8.0000     5.0000    
+Empaquetado.Queue.NumberInQueue             .47348     (Insuf)    .00000     1.0000     .00000    
+Arreglo.Queue.NumberInQueue                 .04524     (Insuf)    .00000     2.0000     .00000    
+Leave 4.Queue.NumberInQueue                 3.7006E-04 (Insuf)    .00000     1.0000     .00000    
+kitting.Queue.NumberInQueue                 2.6183     (Insuf)    .00000     9.0000     3.0000    
+Instalar Gráfica.Queue.NumberInQueue        .28189     (Insuf)    .00000     1.0000     .00000    
+Testeo.Queue.NumberInQueue                  .56633     (Insuf)    .00000     2.0000     .00000    
+Leave 3.Queue.NumberInQueue                 .00195     (Insuf)    .00000     1.0000     .00000    
+Leave 6.Queue.NumberInQueue                 .00110     (Insuf)    .00000     1.0000     .00000    
+Ensamblaje Caja.Queue.NumberInQueue         .92879     (Insuf)    .00000     4.0000     .00000    
+Leave 8.Queue.NumberInQueue                 .00338     (Insuf)    .00000     1.0000     .00000    
+Descarga.Queue.NumberInQueue                .64245     (Insuf)    .00000     2.0000     .00000    
+Leave 2.Queue.NumberInQueue                 .00194     (Insuf)    .00000     1.0000     .00000    
+Pedir Carretilla.Queue.NumberInQueue        .89270     (Insuf)    .00000     8.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Number_out                                  148.00    
+Entidad_gaming.NumberIn                     51.000    
+Entidad_gaming.NumberOut                    49.000    
+Entidad_PC.NumberIn                         157.00    
+Entidad_PC.NumberOut                        157.00    
+Entidad_oficina.NumberIn                    106.00    
+Entidad_oficina.NumberOut                   99.000    
+Entidad_paquete.NumberIn                    6.0000    
+Entidad_paquete.NumberOut                   6.0000    
+Instalador.NumberSeized                     50.000    
+Instalador.ScheduledUtilization             .04940    
+Reparadores.NumberSeized                    40.000    
+Reparadores.ScheduledUtilization            .48293    
+Operario Almacén.NumberSeized               154.00    
+Operario Almacén.ScheduledUtilization       .44279    
+Soldador.NumberSeized                       153.00    
+Soldador.ScheduledUtilization               .82007    
+Cargadores.NumberSeized                     153.00    
+Cargadores.ScheduledUtilization             .09570    
+Wrapper.NumberSeized                        113.00    
+Wrapper.ScheduledUtilization                .16771    
+Ingeniero.NumberSeized                      153.00    
+Ingeniero.ScheduledUtilization              .25347    
+Tester.NumberSeized                         153.00    
+Tester.ScheduledUtilization                 .33640    
+System.NumberOut                            124.00    
+
+
+                                      ARENA Simulation Results
+                                      Anocim - License: STUDENT
+
+                                  Summary for Replication 9 of 10
+
+Project: Unnamed Project                                             Run execution date : 1/ 5/2026
+Analyst: Windows User                                                Model revision date: 1/ 5/2026
+
+Replication ended at time      : 168.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entidad_gaming.VATime                       1.2220     (Insuf)    .84686     1.9957         37    
+Entidad_gaming.NVATime                      .00000     (Insuf)    .00000     .00000         37    
+Entidad_gaming.WaitTime                     15.224     (Insuf)    .60550     22.282         37    
+Entidad_gaming.TranTime                     .61195     (Insuf)    .58571     .62170         37    
+Entidad_gaming.OtherTime                    .00000     (Insuf)    .00000     .00000         37    
+Entidad_gaming.TotalTime                    17.058     (Insuf)    2.2205     24.681         37    
+Entidad_PC.VATime                               --         --         --         --          0
+Entidad_PC.NVATime                              --         --         --         --          0
+Entidad_PC.WaitTime                             --         --         --         --          0
+Entidad_PC.TranTime                             --         --         --         --          0
+Entidad_PC.OtherTime                            --         --         --         --          0
+Entidad_PC.TotalTime                            --         --         --         --          0
+Entidad_oficina.VATime                      .83840     (Insuf)    .56307     1.5336         87    
+Entidad_oficina.NVATime                     .00000     (Insuf)    .00000     .00000         87    
+Entidad_oficina.WaitTime                    13.529     (Insuf)    3.9432E-04 35.850         87    
+Entidad_oficina.TranTime                    .61506     (Insuf)    .58571     .62183         87    
+Entidad_oficina.OtherTime                   .00000     (Insuf)    .00000     .00000         87    
+Entidad_oficina.TotalTime                   14.983     (Insuf)    1.2694     37.793         87    
+Entidad_paquete.VATime                      4.5577     (Insuf)    3.6616     5.8486          7    
+Entidad_paquete.NVATime                     .00000     (Insuf)    .00000     .00000          7    
+Entidad_paquete.WaitTime                    147.10     (Insuf)    86.594     202.16          7    
+Entidad_paquete.TranTime                    3.0877     (Insuf)    3.0364     3.1083          7    
+Entidad_paquete.OtherTime                   .00000     (Insuf)    .00000     .00000          7    
+Entidad_paquete.TotalTime                   46.601     (Insuf)    24.028     71.243          7    
+Leave 5.Queue.WaitingTime                   .00215     (Insuf)    .00000     .00489        130    
+Prep PlacaMadre.Queue.WaitingTime           2.4047     (Insuf)    .00000     15.797        166    
+Leave 7.Queue.WaitingTime                   .00957     (Insuf)    .00000     .15289         33    
+Batch 2.Queue.WaitingTime                   14.640     (Insuf)    .00000     53.350         35    
+Empaquetado.Queue.WaitingTime               .24696     (Insuf)    .00000     15.996        129    
+Arreglo.Queue.WaitingTime                   .65065     (Insuf)    .00000     15.780         33    
+Leave 4.Queue.WaitingTime                   .00143     (Insuf)    .00000     .00458         48    
+kitting.Queue.WaitingTime                   3.1085     (Insuf)    .00000     16.078        182    
+Instalar Gráfica.Queue.WaitingTime          2.5466     (Insuf)    .00000     15.982         49    
+Testeo.Queue.WaitingTime                    1.1629     (Insuf)    .00000     16.078        163    
+Leave 3.Queue.WaitingTime                   .00180     (Insuf)    .00000     .00486        166    
+Leave 6.Queue.WaitingTime                   .00188     (Insuf)    .00000     .00489        129    
+Ensamblaje Caja.Queue.WaitingTime           3.2443     (Insuf)    .00000     20.306        166    
+Leave 8.Queue.WaitingTime                   .01757     (Insuf)    .00000     .23386         33    
+Descarga.Queue.WaitingTime                  .97308     (Insuf)    .00000     15.964        161    
+Leave 2.Queue.WaitingTime                   .00220     (Insuf)    .00000     .00489        166    
+Pedir Carretilla.Queue.WaitingTime          1.8741     (Insuf)    .00000     5.8119        182    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+WIP                                         21.243     (Corr)     .00000     33.000     30.000    
+Entidad_gaming.WIP                          7.5422     (Insuf)    .00000     14.000     14.000    
+Entidad_PC.WIP                              .00000     (Insuf)    .00000     1.0000     .00000    
+Entidad_oficina.WIP                         13.700     (Insuf)    .00000     22.000     16.000    
+Entidad_paquete.WIP                         .00000     (Insuf)    .00000     1.0000     .00000    
+Instalador.NumberBusy                       .01562     (Insuf)    .00000     1.0000     1.0000    
+Instalador.NumberScheduled                  .33333     (Insuf)    .00000     1.0000     1.0000    
+Instalador.Utilization                      .01562     (Insuf)    .00000     1.0000     1.0000    
+Reparadores.NumberBusy                      .13940     (Insuf)    .00000     1.0000     .00000    
+Reparadores.NumberScheduled                 .33333     (Insuf)    .00000     1.0000     .00000    
+Reparadores.Utilization                     .13940     (Insuf)    .00000     1.0000     .00000    
+Operario Almacén.NumberBusy                 .16622     (Insuf)    .00000     1.0000     .00000    
+Operario Almacén.NumberScheduled            .33333     (Insuf)    .00000     1.0000     .00000    
+Operario Almacén.Utilization                .16622     (Insuf)    .00000     1.0000     .00000    
+Soldador.NumberBusy                         .29747     (Insuf)    .00000     1.0000     .00000    
+Soldador.NumberScheduled                    .33333     (Insuf)    .00000     1.0000     .00000    
+Soldador.Utilization                        .29747     (Insuf)    .00000     1.0000     .00000    
+Cargadores.NumberBusy                       .03299     (Insuf)    .00000     1.0000     1.0000    
+Cargadores.NumberScheduled                  .33333     (Insuf)    .00000     1.0000     1.0000    
+Cargadores.Utilization                      .03299     (Insuf)    .00000     1.0000     1.0000    
+Wrapper.NumberBusy                          .06293     (Insuf)    .00000     1.0000     .00000    
+Wrapper.NumberScheduled                     .33333     (Insuf)    .00000     1.0000     .00000    
+Wrapper.Utilization                         .06293     (Insuf)    .00000     1.0000     .00000    
+Ingeniero.NumberBusy                        .08858     (Insuf)    .00000     1.0000     .00000    
+Ingeniero.NumberScheduled                   .33333     (Insuf)    .00000     1.0000     .00000    
+Ingeniero.Utilization                       .08858     (Insuf)    .00000     1.0000     .00000    
+Tester.NumberBusy                           .11986     (Insuf)    .00000     1.0000     .00000    
+Tester.NumberScheduled                      .33333     (Insuf)    .00000     1.0000     .00000    
+Tester.Utilization                          .11986     (Insuf)    .00000     1.0000     .00000    
+Leave 5.Queue.NumberInQueue                 .00167     (Insuf)    .00000     1.0000     .00000    
+Prep PlacaMadre.Queue.NumberInQueue         3.6157     (Insuf)    .00000     16.000     16.000    
+Leave 7.Queue.NumberInQueue                 .00188     (Insuf)    .00000     1.0000     .00000    
+Batch 2.Queue.NumberInQueue                 3.1492     (Insuf)    .00000     8.0000     1.0000    
+Empaquetado.Queue.NumberInQueue             .28415     (Insuf)    .00000     1.0000     1.0000    
+Arreglo.Queue.NumberInQueue                 .12781     (Insuf)    .00000     2.0000     .00000    
+Leave 4.Queue.NumberInQueue                 4.0994E-04 (Insuf)    .00000     1.0000     .00000    
+kitting.Queue.NumberInQueue                 3.9564     (Insuf)    .00000     12.000     7.0000    
+Instalar Gráfica.Queue.NumberInQueue        .83364     (Insuf)    .00000     2.0000     1.0000    
+Testeo.Queue.NumberInQueue                  1.2210     (Insuf)    .00000     6.0000     1.0000    
+Leave 3.Queue.NumberInQueue                 .00178     (Insuf)    .00000     1.0000     .00000    
+Leave 6.Queue.NumberInQueue                 .00144     (Insuf)    .00000     1.0000     .00000    
+Ensamblaje Caja.Queue.NumberInQueue         3.2057     (Insuf)    .00000     16.000     .00000    
+Leave 8.Queue.NumberInQueue                 .00345     (Insuf)    .00000     1.0000     .00000    
+Descarga.Queue.NumberInQueue                1.0228     (Insuf)    .00000     3.0000     1.0000    
+Leave 2.Queue.NumberInQueue                 .00217     (Insuf)    .00000     1.0000     .00000    
+Pedir Carretilla.Queue.NumberInQueue        2.0303     1.4106     .00000     17.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Number_out                                  159.00    
+Entidad_gaming.NumberIn                     61.000    
+Entidad_gaming.NumberOut                    47.000    
+Entidad_PC.NumberIn                         189.00    
+Entidad_PC.NumberOut                        189.00    
+Entidad_oficina.NumberIn                    128.00    
+Entidad_oficina.NumberOut                   112.00    
+Entidad_paquete.NumberIn                    7.0000    
+Entidad_paquete.NumberOut                   7.0000    
+Instalador.NumberSeized                     49.000    
+Instalador.ScheduledUtilization             .04685    
+Reparadores.NumberSeized                    33.000    
+Reparadores.ScheduledUtilization            .41820    
+Operario Almacén.NumberSeized               182.00    
+Operario Almacén.ScheduledUtilization       .49867    
+Soldador.NumberSeized                       166.00    
+Soldador.ScheduledUtilization               .89242    
+Cargadores.NumberSeized                     161.00    
+Cargadores.ScheduledUtilization             .09896    
+Wrapper.NumberSeized                        129.00    
+Wrapper.ScheduledUtilization                .18879    
+Ingeniero.NumberSeized                      166.00    
+Ingeniero.ScheduledUtilization              .26573    
+Tester.NumberSeized                         163.00    
+Tester.ScheduledUtilization                 .35957    
+System.NumberOut                            131.00    
+
+
+                                      ARENA Simulation Results
+                                      Anocim - License: STUDENT
+
+                                  Summary for Replication 10 of 10
+
+Project: Unnamed Project                                             Run execution date : 1/ 5/2026
+Analyst: Windows User                                                Model revision date: 1/ 5/2026
+
+Replication ended at time      : 168.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entidad_gaming.VATime                       1.3210     (Insuf)    .83285     2.0904         42    
+Entidad_gaming.NVATime                      .00000     (Insuf)    .00000     .00000         42    
+Entidad_gaming.WaitTime                     15.669     (Insuf)    .40660     22.294         42    
+Entidad_gaming.TranTime                     .60883     (Insuf)    .58571     .62170         42    
+Entidad_gaming.OtherTime                    .00000     (Insuf)    .00000     .00000         42    
+Entidad_gaming.TotalTime                    17.599     (Insuf)    2.0553     24.892         42    
+Entidad_PC.VATime                               --         --         --         --          0
+Entidad_PC.NVATime                              --         --         --         --          0
+Entidad_PC.WaitTime                             --         --         --         --          0
+Entidad_PC.TranTime                             --         --         --         --          0
+Entidad_PC.OtherTime                            --         --         --         --          0
+Entidad_PC.TotalTime                            --         --         --         --          0
+Entidad_oficina.VATime                      .87425     (Insuf)    .54386     1.4782         96    
+Entidad_oficina.NVATime                     .00000     (Insuf)    .00000     .00000         96    
+Entidad_oficina.WaitTime                    14.904     (Insuf)    .51107     22.794         96    
+Entidad_oficina.TranTime                    .61343     (Insuf)    .58571     .62172         96    
+Entidad_oficina.OtherTime                   .00000     (Insuf)    .00000     .00000         96    
+Entidad_oficina.TotalTime                   16.392     (Insuf)    2.3408     24.264         96    
+Entidad_paquete.VATime                      5.5049     (Insuf)    4.2929     6.1575          5    
+Entidad_paquete.NVATime                     .00000     (Insuf)    .00000     .00000          5    
+Entidad_paquete.WaitTime                    195.10     (Insuf)    122.49     374.41          5    
+Entidad_paquete.TranTime                    3.0220     (Insuf)    2.9645     3.0723          5    
+Entidad_paquete.OtherTime                   .00000     (Insuf)    .00000     .00000          5    
+Entidad_paquete.TotalTime                   58.313     (Insuf)    29.002     122.13          5    
+Leave 5.Queue.WaitingTime                   .00197     (Insuf)    .00000     .00488        119    
+Prep PlacaMadre.Queue.WaitingTime           2.7614     (Insuf)    .00000     16.026        182    
+Leave 7.Queue.WaitingTime                   .03516     (Insuf)    .00000     .25696         50    
+Batch 2.Queue.WaitingTime                   23.367     (Insuf)    .00000     119.38         25    
+Empaquetado.Queue.WaitingTime               .67533     (Insuf)    .00000     15.974        118    
+Arreglo.Queue.WaitingTime                   .66988     (Insuf)    .00000     16.472         50    
+Leave 4.Queue.WaitingTime                   8.9409E-04 (Insuf)    .00000     .00455         50    
+kitting.Queue.WaitingTime                   3.0330     (Insuf)    .00000     15.938        184    
+Instalar Gráfica.Queue.WaitingTime          1.8630     (Insuf)    .00000     15.952         50    
+Testeo.Queue.WaitingTime                    .84174     (Insuf)    .00000     15.896        169    
+Leave 3.Queue.WaitingTime                   .00172     (Insuf)    .00000     .00488        173    
+Leave 6.Queue.WaitingTime                   .00172     (Insuf)    .00000     .00486        118    
+Ensamblaje Caja.Queue.WaitingTime           4.5676     (Insuf)    .00000     19.829        173    
+Leave 8.Queue.WaitingTime                   .05275     (Insuf)    .00000     .30436         50    
+Descarga.Queue.WaitingTime                  .65520     (Insuf)    .00000     15.974        168    
+Leave 2.Queue.WaitingTime                   .00201     (Insuf)    .00000     .00489        182    
+Pedir Carretilla.Queue.WaitingTime          1.6428     (Insuf)    .00000     4.6246        184    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+WIP                                         23.626     (Corr)     .00000     35.000     25.000    
+Entidad_gaming.WIP                          7.9538     (Insuf)    .00000     14.000     6.0000    
+Entidad_PC.WIP                              .00000     (Insuf)    .00000     1.0000     .00000    
+Entidad_oficina.WIP                         15.672     (Insuf)    .00000     23.000     19.000    
+Entidad_paquete.WIP                         .00000     (Insuf)    .00000     1.0000     .00000    
+Instalador.NumberBusy                       .01598     (Insuf)    .00000     1.0000     .00000    
+Instalador.NumberScheduled                  .33333     (Insuf)    .00000     1.0000     1.0000    
+Instalador.Utilization                      .01598     (Insuf)    .00000     1.0000     .00000    
+Reparadores.NumberBusy                      .21300     (Insuf)    .00000     1.0000     .00000    
+Reparadores.NumberScheduled                 .33333     (Insuf)    .00000     1.0000     .00000    
+Reparadores.Utilization                     .21300     (Insuf)    .00000     1.0000     .00000    
+Operario Almacén.NumberBusy                 .16697     (Insuf)    .00000     1.0000     .00000    
+Operario Almacén.NumberScheduled            .33333     (Insuf)    .00000     1.0000     .00000    
+Operario Almacén.Utilization                .16697     (Insuf)    .00000     1.0000     .00000    
+Soldador.NumberBusy                         .31820     (Insuf)    .00000     1.0000     .00000    
+Soldador.NumberScheduled                    .33333     (Insuf)    .00000     1.0000     .00000    
+Soldador.Utilization                        .31820     (Insuf)    .00000     1.0000     .00000    
+Cargadores.NumberBusy                       .03613     (Insuf)    .00000     1.0000     1.0000    
+Cargadores.NumberScheduled                  .33333     (Insuf)    .00000     1.0000     1.0000    
+Cargadores.Utilization                      .03613     (Insuf)    .00000     1.0000     1.0000    
+Wrapper.NumberBusy                          .05729     (Insuf)    .00000     1.0000     .00000    
+Wrapper.NumberScheduled                     .33333     (Insuf)    .00000     1.0000     .00000    
+Wrapper.Utilization                         .05729     (Insuf)    .00000     1.0000     .00000    
+Ingeniero.NumberBusy                        .09467     (Insuf)    .00000     1.0000     .00000    
+Ingeniero.NumberScheduled                   .33333     (Insuf)    .00000     1.0000     .00000    
+Ingeniero.Utilization                       .09467     (Insuf)    .00000     1.0000     .00000    
+Tester.NumberBusy                           .12472     (Insuf)    .00000     1.0000     .00000    
+Tester.NumberScheduled                      .33333     (Insuf)    .00000     1.0000     .00000    
+Tester.Utilization                          .12472     (Insuf)    .00000     1.0000     .00000    
+Leave 5.Queue.NumberInQueue                 .00140     (Insuf)    .00000     1.0000     .00000    
+Prep PlacaMadre.Queue.NumberInQueue         3.1752     (Insuf)    .00000     11.000     2.0000    
+Leave 7.Queue.NumberInQueue                 .01047     (Insuf)    .00000     1.0000     .00000    
+Batch 2.Queue.NumberInQueue                 4.2028     (Insuf)    .00000     9.0000     4.0000    
+Empaquetado.Queue.NumberInQueue             .56762     (Insuf)    .00000     2.0000     1.0000    
+Arreglo.Queue.NumberInQueue                 .19937     (Insuf)    .00000     3.0000     .00000    
+Leave 4.Queue.NumberInQueue                 2.6610E-04 (Insuf)    .00000     1.0000     .00000    
+kitting.Queue.NumberInQueue                 3.6542     (Insuf)    .00000     8.0000     4.0000    
+Instalar Gráfica.Queue.NumberInQueue        .55447     (Insuf)    .00000     2.0000     .00000    
+Testeo.Queue.NumberInQueue                  1.2101     (Insuf)    .00000     4.0000     4.0000    
+Leave 3.Queue.NumberInQueue                 .00177     (Insuf)    .00000     1.0000     .00000    
+Leave 6.Queue.NumberInQueue                 .00121     (Insuf)    .00000     1.0000     .00000    
+Ensamblaje Caja.Queue.NumberInQueue         5.6454     (Corr)     .00000     15.000     9.0000    
+Leave 8.Queue.NumberInQueue                 .01570     (Insuf)    .00000     1.0000     .00000    
+Descarga.Queue.NumberInQueue                .65520     (Insuf)    .00000     2.0000     .00000    
+Leave 2.Queue.NumberInQueue                 .00218     (Insuf)    .00000     1.0000     .00000    
+Pedir Carretilla.Queue.NumberInQueue        1.7993     1.1051     .00000     13.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Number_out                                  163.00    
+Entidad_gaming.NumberIn                     53.000    
+Entidad_gaming.NumberOut                    47.000    
+Entidad_PC.NumberIn                         188.00    
+Entidad_PC.NumberOut                        188.00    
+Entidad_oficina.NumberIn                    135.00    
+Entidad_oficina.NumberOut                   116.00    
+Entidad_paquete.NumberIn                    5.0000    
+Entidad_paquete.NumberOut                   5.0000    
+Instalador.NumberSeized                     50.000    
+Instalador.ScheduledUtilization             .04794    
+Reparadores.NumberSeized                    50.000    
+Reparadores.ScheduledUtilization            .63900    
+Operario Almacén.NumberSeized               184.00    
+Operario Almacén.ScheduledUtilization       .50092    
+Soldador.NumberSeized                       173.00    
+Soldador.ScheduledUtilization               .95459    
+Cargadores.NumberSeized                     168.00    
+Cargadores.ScheduledUtilization             .10838    
+Wrapper.NumberSeized                        118.00    
+Wrapper.ScheduledUtilization                .17187    
+Ingeniero.NumberSeized                      182.00    
+Ingeniero.ScheduledUtilization              .28400    
+Tester.NumberSeized                         169.00    
+Tester.ScheduledUtilization                 .37416    
+System.NumberOut                            143.00    
+
+
+                                      ARENA Simulation Results
+                                      Anocim - License: STUDENT
+
+                                 Output Summary for 10 Replications
+
+Project: Unnamed Project                                             Run execution date : 1/ 5/2026
+Analyst: Windows User                                                Model revision date: 1/ 5/2026
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Number_out                                  159.20     3.5653     148.00     167.00     10
+Entidad_gaming.NumberIn                     54.800     5.9446     39.000     71.000     10
+Entidad_gaming.NumberOut                    45.300     3.6325     34.000     52.000     10
+Entidad_PC.NumberIn                         188.00     10.572     157.00     214.00     10
+Entidad_PC.NumberOut                        188.00     10.572     157.00     214.00     10
+Entidad_oficina.NumberIn                    133.20     7.9852     106.00     146.00     10
+Entidad_oficina.NumberOut                   113.90     5.1520     99.000     126.00     10
+Entidad_paquete.NumberIn                    6.0000     .89214     4.0000     8.0000     10
+Entidad_paquete.NumberOut                   6.0000     .89214     4.0000     8.0000     10
+Instalador.NumberSeized                     48.300     4.1305     35.000     58.000     10
+Instalador.ScheduledUtilization             .04678     .00382     .03466     .05425     10
+Reparadores.NumberSeized                    43.000     5.0354     33.000     55.000     10
+Reparadores.ScheduledUtilization            .53686     .06535     .41820     .68994     10
+Operario Almacén.NumberSeized               183.10     9.7697     154.00     204.00     10
+Operario Almacén.ScheduledUtilization       .50301     .02352     .44279     .55645     10
+Soldador.NumberSeized                       167.40     4.4886     153.00     175.00     10
+Soldador.ScheduledUtilization               .90730     .02872     .82007     .95510     10
+Cargadores.NumberSeized                     162.40     3.4420     153.00     169.00     10
+Cargadores.ScheduledUtilization             .10286     .00507     .09499     .11474     10
+Wrapper.NumberSeized                        120.70     4.5120     113.00     129.00     10
+Wrapper.ScheduledUtilization                .17785     .00719     .16771     .19567     10
+Ingeniero.NumberSeized                      175.20     7.7100     153.00     190.00     10
+Ingeniero.ScheduledUtilization              .27368     .01407     .24293     .30603     10
+Tester.NumberSeized                         164.60     3.7122     153.00     171.00     10
+Tester.ScheduledUtilization                 .35820     .01076     .33620     .37907     10
+System.NumberOut                            135.20     4.7663     124.00     143.00     10
+
+Simulation run time: 0.02 minutes.
+Simulation run complete.
