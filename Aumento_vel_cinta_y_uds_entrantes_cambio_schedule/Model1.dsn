@@ -9,5 +9,5 @@ MaxScanRows=8
 MaxBufferSize=2048
 FIL=MS Access
 DriverId=281
-DefaultDir=c:\Users\Anocim\Desktop\UNIVERSIDAD\Cuarto\Automatizacion_Sist_Produccion\ARENA\proyecto_auto\Aumento_vel_cinta_y_uds_entrantes_cambio_schedule
+DefaultDir=c:\Users\Anocim\Desktop\UNIVERSIDAD\Cuarto\Automatizacion_Sist_Produccion\ARENA\proyecto_auto
 DBQ=C:\Users\Anocim\Desktop\UNIVERSIDAD\Cuarto\Automatizacion_Sist_Produccion\ARENA\proyecto_auto\Aumento_vel_cinta_y_uds_entrantes_cambio_schedule\Model1.accdb

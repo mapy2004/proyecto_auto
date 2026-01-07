@@ -9,5 +9,5 @@ MaxScanRows=8
 MaxBufferSize=2048
 FIL=MS Access
 DriverId=281
-DefaultDir=C:\Users\Anocim\Desktop\UNIVERSIDAD\Cuarto\Automatizacion_Sist_Produccion\ARENA\proyectpo_auto_local
-DBQ=C:\Users\Anocim\Desktop\UNIVERSIDAD\Cuarto\Automatizacion_Sist_Produccion\ARENA\proyectpo_auto_local\Model1.accdb
+DefaultDir=c:\Users\Anocim\Desktop\UNIVERSIDAD\Cuarto\Automatizacion_Sist_Produccion\ARENA\proyecto_auto
+DBQ=C:\Users\Anocim\Desktop\UNIVERSIDAD\Cuarto\Automatizacion_Sist_Produccion\ARENA\proyecto_auto\Model1.accdb
